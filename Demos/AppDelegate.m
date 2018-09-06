@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainMenuViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
+
+    MainMenuViewController *mainVC = [MainMenuViewController new];
+    TZLNavigationController *naviVC = [[TZLNavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = naviVC;
+    
     return YES;
 }
 
