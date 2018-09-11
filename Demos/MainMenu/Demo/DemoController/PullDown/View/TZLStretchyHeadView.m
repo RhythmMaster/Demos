@@ -31,20 +31,27 @@
     self.superScrollView = (UIScrollView *)self.superview;
     CGFloat contentInset_Top = self.frame.size.height - 64;
     self.superScrollView.contentInset = UIEdgeInsetsMake(contentInset_Top, 0, 0, 0);
-    
+    [self.superScrollView.superview layoutIfNeeded];
+     self.superScrollView.contentOffset = CGPointMake(0, -64 - contentInset_Top);
     [self.superScrollView addObserver:self forKeyPath:NSStringFromSelector(@selector(contentOffset)) options:NSKeyValueObservingOptionNew context:nil];
+    [self.superScrollView addObserver:self forKeyPath:NSStringFromSelector(@selector(sublayers)) options:NSKeyValueObservingOptionNew context:nil];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    NSValue *newValue = change[NSKeyValueChangeNewKey];
-    CGPoint contentOffset = newValue.CGPointValue;
-    //FIXME:重点说明:  利用观察者模式 比在scrollView 代理方法里面要更加精确 ,不会出现视图更新跟不上的情况 比如上滑过快导致 顶部瞬间出现的空白情况
-    [self updateOriginWithOffset:contentOffset];
+    if ([keyPath isEqualToString:@"contentOffset"]) {
+        NSValue *newValue = change[NSKeyValueChangeNewKey];
+        CGPoint contentOffset = newValue.CGPointValue;
+        //FIXME:重点说明:  利用观察者模式 比在scrollView 代理方法里面要更加精确 ,不会出现视图更新跟不上的情况 比如上滑过快导致 顶部瞬间出现的空白情况
+        [self updateOriginWithOffset:contentOffset];
+    }
+    if ([keyPath isEqualToString:@"sublayers"]) {
+        [self.superScrollView bringSubviewToFront:self];
+    }
 }
 
 - (void)updateOriginWithOffset:(CGPoint)offset {
     CGFloat offSet_Y = offset.y;
-    NSLog(@"scrollView.contentOffset: %@", NSStringFromCGPoint(offset));
+    //NSLog(@"scrollView.contentOffset: %@", NSStringFromCGPoint(offset));
     CGRect frame = self.frame;
     UIViewController *superVC = [self.superScrollView viewController];
     frame.origin.y = offSet_Y;
@@ -63,15 +70,15 @@
         frame.size.width = self.superScrollView.width + (-offSet_Y - 228);
     }
     self.frame = frame;
-    NSLog(@"self.headView.frame: %@", NSStringFromCGRect(self.frame));
-    NSLog(@"%s", __func__);
+    //NSLog(@"self.headView.frame: %@", NSStringFromCGRect(self.frame));
+    //NSLog(@"%s", __func__);
 }
 
 #pragma  mark lazy
 - (UIImageView *)backImageView {
     if (!_backImageView) {
         _backImageView = [UIImageView new];
-        _backImageView.image = [UIImage imageNamed:@"direction"];
+        _backImageView.image = [UIImage imageNamed:@"hanbing"];
         [self addSubview:_backImageView];
         [_backImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(0);

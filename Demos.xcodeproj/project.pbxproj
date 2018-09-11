@@ -29,6 +29,10 @@
 		241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3868214111F90062DCD3 /* TZLStretchyHeadView.m */; };
 		241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C386A2141136C0062DCD3 /* UIView+TZLFrame.m */; };
 		241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C386E2141190C0062DCD3 /* UIView+TZLExtension.m */; };
+		241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3871214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m */; };
+		241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3876214767F00062DCD3 /* TZLWaterfallViewController.m */; };
+		241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */; };
+		241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C387D2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -98,6 +102,14 @@
 		241C386B2141136D0062DCD3 /* UIView+TZLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TZLFrame.h"; sourceTree = "<group>"; };
 		241C386D2141190C0062DCD3 /* UIView+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TZLExtension.h"; sourceTree = "<group>"; };
 		241C386E2141190C0062DCD3 /* UIView+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZLExtension.m"; sourceTree = "<group>"; };
+		241C3870214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TZLStatusBarStyle.h"; sourceTree = "<group>"; };
+		241C3871214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TZLStatusBarStyle.m"; sourceTree = "<group>"; };
+		241C3875214767F00062DCD3 /* TZLWaterfallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLWaterfallViewController.h; sourceTree = "<group>"; };
+		241C3876214767F00062DCD3 /* TZLWaterfallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLWaterfallViewController.m; sourceTree = "<group>"; };
+		241C3879214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		241C387C2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
+		241C387D2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,9 +257,8 @@
 		241C384A2140D0640062DCD3 /* DemoController */ = {
 			isa = PBXGroup;
 			children = (
-				241C384B2140D0D20062DCD3 /* PullDownHeadViewController.h */,
-				241C384C2140D0D20062DCD3 /* PullDownHeadViewController.m */,
-				241C38662141118D0062DCD3 /* View */,
+				241C3874214767990062DCD3 /* FlowLayout */,
+				241C3873214767780062DCD3 /* PullDown */,
 			);
 			path = DemoController;
 			sourceTree = "<group>";
@@ -294,6 +305,8 @@
 			children = (
 				241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */,
 				241C385921410F870062DCD3 /* UINavigationController+TZLExtension.h */,
+				241C3870214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.h */,
+				241C3871214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m */,
 			);
 			path = NavigitationController;
 			sourceTree = "<group>";
@@ -314,6 +327,37 @@
 				241C3868214111F90062DCD3 /* TZLStretchyHeadView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		241C3873214767780062DCD3 /* PullDown */ = {
+			isa = PBXGroup;
+			children = (
+				241C38662141118D0062DCD3 /* View */,
+				241C384B2140D0D20062DCD3 /* PullDownHeadViewController.h */,
+				241C384C2140D0D20062DCD3 /* PullDownHeadViewController.m */,
+			);
+			path = PullDown;
+			sourceTree = "<group>";
+		};
+		241C3874214767990062DCD3 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				241C387C2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.h */,
+				241C387D2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m */,
+				241C38782147698F0062DCD3 /* TZLWaterfallFlowLayout */,
+				241C3875214767F00062DCD3 /* TZLWaterfallViewController.h */,
+				241C3876214767F00062DCD3 /* TZLWaterfallViewController.m */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		241C38782147698F0062DCD3 /* TZLWaterfallFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				241C3879214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.h */,
+				241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */,
+			);
+			path = TZLWaterfallFlowLayout;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -618,7 +662,9 @@
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
+				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
+				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
 				241C383F2140CC530062DCD3 /* BasicViewController.m in Sources */,
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
@@ -627,7 +673,9 @@
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
 				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
+				241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */,
 				241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */,
+				241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */,
 				241C38482140CD570062DCD3 /* DemoMenuViewController.m in Sources */,
 				241C380A2140C5F40062DCD3 /* AppDelegate.m in Sources */,
 			);

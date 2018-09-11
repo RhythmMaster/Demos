@@ -23,10 +23,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    UIViewController* topVC = self.topViewController;
-    return [topVC preferredStatusBarStyle];
-}
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    UIViewController* topVC = self.topViewController;
+//    return [topVC preferredStatusBarStyle];
+//}
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;

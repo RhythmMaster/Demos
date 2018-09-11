@@ -44,6 +44,7 @@
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat offset_Y = scrollView.contentOffset.y;
+    //NSLog(@"%f", offset_Y);
     if (offset_Y < -64) {
         self.statusBarStyle = UIStatusBarStyleLightContent;
     } else {

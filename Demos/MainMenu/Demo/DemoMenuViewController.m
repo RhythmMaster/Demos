@@ -8,6 +8,7 @@
 
 #import "DemoMenuViewController.h"
 #import "PullDownHeadViewController.h"
+#import "TZLWaterfallViewController.h"
 
 @interface DemoMenuViewController ()
 
@@ -17,8 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArr = @[@"模仿朋友圈顶部下拉效果"];
-    self.controllerArr = @[[PullDownHeadViewController class]];
+    self.dataArr = @[@"模仿朋友圈顶部下拉效果", @"瀑布流的简单实现思路"];
+    self.controllerArr = @[[PullDownHeadViewController class], [TZLWaterfallViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {
