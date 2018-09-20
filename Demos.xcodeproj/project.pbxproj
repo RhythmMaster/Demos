@@ -33,6 +33,12 @@
 		241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3876214767F00062DCD3 /* TZLWaterfallViewController.m */; };
 		241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */; };
 		241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C387D2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m */; };
+		241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */; };
+		241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A821533D390062DCD3 /* TZLEmitterViewController.m */; };
+		241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */; };
+		2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */; };
+		2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */; };
+		245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -110,6 +116,18 @@
 		241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
 		241C387C2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLWaterfallCollectionViewCell.h; sourceTree = "<group>"; };
 		241C387D2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLWaterfallCollectionViewCell.m; sourceTree = "<group>"; };
+		241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLStudyViewController.h; sourceTree = "<group>"; };
+		241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLStudyViewController.m; sourceTree = "<group>"; };
+		241C38A721533D390062DCD3 /* TZLEmitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterViewController.h; sourceTree = "<group>"; };
+		241C38A821533D390062DCD3 /* TZLEmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterViewController.m; sourceTree = "<group>"; };
+		241C38AA21533E2A0062DCD3 /* TZLEmitterRainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRainViewController.h; sourceTree = "<group>"; };
+		241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterRainViewController.m; sourceTree = "<group>"; };
+		2450815821534A2F00C9657B /* TZLEmitterSnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterSnowViewController.h; sourceTree = "<group>"; };
+		2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterSnowViewController.m; sourceTree = "<group>"; };
+		2450815B21538D3A00C9657B /* TZLEmitterRedPackageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRedPackageViewController.h; sourceTree = "<group>"; };
+		2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterRedPackageViewController.m; sourceTree = "<group>"; };
+		2450815E2153931C00C9657B /* TZLEmitterColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterColorViewController.h; sourceTree = "<group>"; };
+		2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterColorViewController.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,6 +257,7 @@
 			children = (
 				241C38422140CCAC0062DCD3 /* MainMenuViewController.h */,
 				241C38432140CCAC0062DCD3 /* MainMenuViewController.m */,
+				241C38A221533C8B0062DCD3 /* Study */,
 				241C38452140CD300062DCD3 /* Demo */,
 			);
 			path = MainMenu;
@@ -358,6 +377,33 @@
 				241C387A214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m */,
 			);
 			path = TZLWaterfallFlowLayout;
+			sourceTree = "<group>";
+		};
+		241C38A221533C8B0062DCD3 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */,
+				241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */,
+				241C38A621533D1A0062DCD3 /* Emitter */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		241C38A621533D1A0062DCD3 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				241C38A721533D390062DCD3 /* TZLEmitterViewController.h */,
+				241C38A821533D390062DCD3 /* TZLEmitterViewController.m */,
+				241C38AA21533E2A0062DCD3 /* TZLEmitterRainViewController.h */,
+				241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */,
+				2450815821534A2F00C9657B /* TZLEmitterSnowViewController.h */,
+				2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */,
+				2450815B21538D3A00C9657B /* TZLEmitterRedPackageViewController.h */,
+				2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */,
+				2450815E2153931C00C9657B /* TZLEmitterColorViewController.h */,
+				2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */,
+			);
+			path = Emitter;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -660,15 +706,21 @@
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
+				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
 				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
+				241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */,
+				245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */,
 				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
+				241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */,
+				2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */,
 				241C383F2140CC530062DCD3 /* BasicViewController.m in Sources */,
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
+				241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */,
 				241C38442140CCAC0062DCD3 /* MainMenuViewController.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,

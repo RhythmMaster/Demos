@@ -9,6 +9,7 @@ target 'Demos' do
   
   pod 'AFNetworking'#, '~> 3.0'  #网络请求
   pod 'Masonry'  #布局
+  pod 'YYKit'
   
   
   target 'DemosTests' do

@@ -30,5 +30,6 @@
 #import <UIKit+AFNetworking.h>
 #define MAS_SHORTHAND_GLOBALS
 #import <Masonry.h>
+#import <YYKit.h>
 
 #endif /* PrefixHeader_pch */
