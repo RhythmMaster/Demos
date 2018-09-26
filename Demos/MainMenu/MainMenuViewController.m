@@ -10,6 +10,7 @@
 
 #import "DemoMenuViewController.h"
 #import "TZLStudyViewController.h"
+#import "TZLAnimationViewController.h"
 
 @interface MainMenuViewController ()
 
@@ -20,8 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"主菜单";
-    self.dataArr = @[@"功能性demo", @"知识点学习"];
-    self.controllerArr = @[[DemoMenuViewController class], [TZLStudyViewController class]];
+    self.dataArr = @[@"功能性demo", @"知识点学习", @"动画"];
+    self.controllerArr = @[[DemoMenuViewController class], [TZLStudyViewController class], [TZLAnimationViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {

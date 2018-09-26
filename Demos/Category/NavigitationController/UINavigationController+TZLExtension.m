@@ -10,11 +10,10 @@
 
 @implementation UINavigationController (TZLExtension)
 - (void)setTzl_navigationBarBackgroundAlpha:(CGFloat)tzl_navigationBarBackgroundAlpha {
-    UIView *naviBackView = [self.navigationBar valueForKey:@"_backgroundView"];
-    naviBackView.alpha = tzl_navigationBarBackgroundAlpha;
+    [self.navigationBar navBarAlpha:tzl_navigationBarBackgroundAlpha isOpaque:YES];
 }
 - (CGFloat)tzl_navigationBarBackgroundAlpha {
-    UIView *naviBackView = [self.navigationBar valueForKey:@"_backgroundView"];
+    MyNavView *naviBackView = self.navigationBar.myNavView;
     return naviBackView.alpha;
 }
 @end

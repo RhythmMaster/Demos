@@ -36,9 +36,21 @@
 		241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */; };
 		241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A821533D390062DCD3 /* TZLEmitterViewController.m */; };
 		241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */; };
+		24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D1A215B0DC00002E7FC /* TZLAnimationViewController.m */; };
+		24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D1E215B0E3C0002E7FC /* TZLTransformAnimationViewController.m */; };
+		24427D23215B11FD0002E7FC /* TZLSubTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D22215B11FD0002E7FC /* TZLSubTransformViewController.m */; };
+		24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D26215B13600002E7FC /* TZLCustomTransformAnimation.m */; };
+		24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D2E215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m */; };
+		24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D35215B5C7B0002E7FC /* ZXPUnicode.m */; };
+		24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */; };
+		24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D39215B68520002E7FC /* MKJPresentAnimator.m */; };
+		24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */; };
 		2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */; };
 		2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */; };
 		245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */; };
+		2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450816221549C7800C9657B /* TZLEmitterFireworksViewController.m */; };
+		245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */; };
+		2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081692154BEBB00C9657B /* TZLLikeButton.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -122,12 +134,36 @@
 		241C38A821533D390062DCD3 /* TZLEmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterViewController.m; sourceTree = "<group>"; };
 		241C38AA21533E2A0062DCD3 /* TZLEmitterRainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRainViewController.h; sourceTree = "<group>"; };
 		241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterRainViewController.m; sourceTree = "<group>"; };
+		24427D19215B0DC00002E7FC /* TZLAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAnimationViewController.h; sourceTree = "<group>"; };
+		24427D1A215B0DC00002E7FC /* TZLAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAnimationViewController.m; sourceTree = "<group>"; };
+		24427D1D215B0E3C0002E7FC /* TZLTransformAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLTransformAnimationViewController.h; sourceTree = "<group>"; };
+		24427D1E215B0E3C0002E7FC /* TZLTransformAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLTransformAnimationViewController.m; sourceTree = "<group>"; };
+		24427D21215B11FD0002E7FC /* TZLSubTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLSubTransformViewController.h; sourceTree = "<group>"; };
+		24427D22215B11FD0002E7FC /* TZLSubTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLSubTransformViewController.m; sourceTree = "<group>"; };
+		24427D25215B13600002E7FC /* TZLCustomTransformAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLCustomTransformAnimation.h; sourceTree = "<group>"; };
+		24427D26215B13600002E7FC /* TZLCustomTransformAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLCustomTransformAnimation.m; sourceTree = "<group>"; };
+		24427D2D215B5C3E0002E7FC /* UIBarButtonItem+HZBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HZBarButtonItem.h"; sourceTree = "<group>"; };
+		24427D2E215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HZBarButtonItem.m"; sourceTree = "<group>"; };
+		24427D32215B5C7B0002E7FC /* NSObject+HZRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HZRuntime.h"; sourceTree = "<group>"; };
+		24427D34215B5C7B0002E7FC /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
+		24427D35215B5C7B0002E7FC /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HZRuntime.m"; sourceTree = "<group>"; };
+		24427D39215B68520002E7FC /* MKJPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJPresentAnimator.m; sourceTree = "<group>"; };
+		24427D3A215B68520002E7FC /* MKJPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJPresentAnimator.h; sourceTree = "<group>"; };
+		24427D3C215B79110002E7FC /* UINavigationBar+TZLHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TZLHandle.h"; sourceTree = "<group>"; };
+		24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TZLHandle.m"; sourceTree = "<group>"; };
 		2450815821534A2F00C9657B /* TZLEmitterSnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterSnowViewController.h; sourceTree = "<group>"; };
 		2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterSnowViewController.m; sourceTree = "<group>"; };
 		2450815B21538D3A00C9657B /* TZLEmitterRedPackageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRedPackageViewController.h; sourceTree = "<group>"; };
 		2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterRedPackageViewController.m; sourceTree = "<group>"; };
 		2450815E2153931C00C9657B /* TZLEmitterColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterColorViewController.h; sourceTree = "<group>"; };
 		2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterColorViewController.m; sourceTree = "<group>"; };
+		2450816121549C7800C9657B /* TZLEmitterFireworksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterFireworksViewController.h; sourceTree = "<group>"; };
+		2450816221549C7800C9657B /* TZLEmitterFireworksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterFireworksViewController.m; sourceTree = "<group>"; };
+		245081642154BE8900C9657B /* TZLEmitterLikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterLikeViewController.h; sourceTree = "<group>"; };
+		245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterLikeViewController.m; sourceTree = "<group>"; };
+		245081682154BEBB00C9657B /* TZLLikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLikeButton.h; sourceTree = "<group>"; };
+		245081692154BEBB00C9657B /* TZLLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLikeButton.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,6 +293,7 @@
 			children = (
 				241C38422140CCAC0062DCD3 /* MainMenuViewController.h */,
 				241C38432140CCAC0062DCD3 /* MainMenuViewController.m */,
+				24427D18215B0DAD0002E7FC /* Animation */,
 				241C38A221533C8B0062DCD3 /* Study */,
 				241C38452140CD300062DCD3 /* Demo */,
 			);
@@ -296,6 +333,7 @@
 		241C385221410F760062DCD3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				24427D31215B5C7B0002E7FC /* NSObject */,
 				241C385421410F870062DCD3 /* UIViewController */,
 				241C385721410F870062DCD3 /* NavigitationController */,
 				241C386B2141136D0062DCD3 /* UIView+TZLFrame.h */,
@@ -322,8 +360,12 @@
 		241C385721410F870062DCD3 /* NavigitationController */ = {
 			isa = PBXGroup;
 			children = (
-				241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */,
+				24427D2D215B5C3E0002E7FC /* UIBarButtonItem+HZBarButtonItem.h */,
+				24427D2E215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m */,
+				24427D3C215B79110002E7FC /* UINavigationBar+TZLHandle.h */,
+				24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */,
 				241C385921410F870062DCD3 /* UINavigationController+TZLExtension.h */,
+				241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */,
 				241C3870214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.h */,
 				241C3871214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m */,
 			);
@@ -392,6 +434,7 @@
 		241C38A621533D1A0062DCD3 /* Emitter */ = {
 			isa = PBXGroup;
 			children = (
+				245081672154BEAC00C9657B /* TZLLikeButton */,
 				241C38A721533D390062DCD3 /* TZLEmitterViewController.h */,
 				241C38A821533D390062DCD3 /* TZLEmitterViewController.m */,
 				241C38AA21533E2A0062DCD3 /* TZLEmitterRainViewController.h */,
@@ -402,8 +445,81 @@
 				2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */,
 				2450815E2153931C00C9657B /* TZLEmitterColorViewController.h */,
 				2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */,
+				2450816121549C7800C9657B /* TZLEmitterFireworksViewController.h */,
+				2450816221549C7800C9657B /* TZLEmitterFireworksViewController.m */,
+				245081642154BE8900C9657B /* TZLEmitterLikeViewController.h */,
+				245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */,
 			);
 			path = Emitter;
+			sourceTree = "<group>";
+		};
+		24427D18215B0DAD0002E7FC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				24427D19215B0DC00002E7FC /* TZLAnimationViewController.h */,
+				24427D1A215B0DC00002E7FC /* TZLAnimationViewController.m */,
+				24427D1C215B0DF90002E7FC /* SubController */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		24427D1C215B0DF90002E7FC /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				24427D24215B13210002E7FC /* CustomAnimation */,
+				24427D20215B0E880002E7FC /* TransformAnimation */,
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		24427D20215B0E880002E7FC /* TransformAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				24427D1D215B0E3C0002E7FC /* TZLTransformAnimationViewController.h */,
+				24427D1E215B0E3C0002E7FC /* TZLTransformAnimationViewController.m */,
+				24427D21215B11FD0002E7FC /* TZLSubTransformViewController.h */,
+				24427D22215B11FD0002E7FC /* TZLSubTransformViewController.m */,
+			);
+			path = TransformAnimation;
+			sourceTree = "<group>";
+		};
+		24427D24215B13210002E7FC /* CustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				24427D3A215B68520002E7FC /* MKJPresentAnimator.h */,
+				24427D39215B68520002E7FC /* MKJPresentAnimator.m */,
+				24427D25215B13600002E7FC /* TZLCustomTransformAnimation.h */,
+				24427D26215B13600002E7FC /* TZLCustomTransformAnimation.m */,
+			);
+			path = CustomAnimation;
+			sourceTree = "<group>";
+		};
+		24427D31215B5C7B0002E7FC /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				24427D32215B5C7B0002E7FC /* NSObject+HZRuntime.h */,
+				24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */,
+				24427D33215B5C7B0002E7FC /* ZXPUnicode */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		24427D33215B5C7B0002E7FC /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				24427D34215B5C7B0002E7FC /* ZXPUnicode.h */,
+				24427D35215B5C7B0002E7FC /* ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
+		245081672154BEAC00C9657B /* TZLLikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				245081682154BEBB00C9657B /* TZLLikeButton.h */,
+				245081692154BEBB00C9657B /* TZLLikeButton.m */,
+			);
+			path = TZLLikeButton;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -706,27 +822,39 @@
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
+				24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */,
 				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
 				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
+				24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */,
 				241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */,
+				2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */,
 				245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */,
 				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
 				241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */,
 				2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */,
 				241C383F2140CC530062DCD3 /* BasicViewController.m in Sources */,
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
+				24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */,
+				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
+				24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */,
 				241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */,
 				241C38442140CCAC0062DCD3 /* MainMenuViewController.m in Sources */,
+				24427D23215B11FD0002E7FC /* TZLSubTransformViewController.m in Sources */,
+				24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */,
+				24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */,
+				24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
 				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
 				241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */,
+				2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */,
 				241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */,
+				24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */,
 				241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */,
 				241C38482140CD570062DCD3 /* DemoMenuViewController.m in Sources */,
 				241C380A2140C5F40062DCD3 /* AppDelegate.m in Sources */,

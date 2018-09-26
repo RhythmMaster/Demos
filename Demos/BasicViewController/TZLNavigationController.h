@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface TZLNavigationController : UINavigationController
-
+/**
+ viewController: push的VC
+ imageView: 做动画的view
+ desRec: 终点frame
+ originalRec: 起点frame
+ isPush: 是否push pop
+ */
+- (void)pushViewController:(UIViewController *)viewController animationView:(UIView *)animationView desRec:(CGRect)desRec original:(CGRect)originalRec isPush:(BOOL)isPush;
 @end

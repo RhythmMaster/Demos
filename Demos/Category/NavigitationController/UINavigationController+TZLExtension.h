@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UINavigationBar+TZLHandle.h"
 
 @interface UINavigationController (TZLExtension)
 /**

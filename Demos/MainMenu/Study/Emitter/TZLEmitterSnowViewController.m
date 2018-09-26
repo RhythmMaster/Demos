@@ -39,10 +39,12 @@
     snowCell.birthRate = 10;
     snowCell.velocity = 10;
     snowCell.velocityRange = 2;
-    snowCell.lifetime = 200;
+    snowCell.lifetime = 140;
     snowCell.scale = 0.2;
     snowCell.scaleRange = 0.1;
     snowCell.yAcceleration = 2;
+    snowCell.spin = 1;
+    snowCell.spinRange = 0.2;
     
     snowCell.emissionLongitude = M_PI_2 + M_PI_2; // 向下
     snowCell.emissionRange = M_PI_4; // 向下

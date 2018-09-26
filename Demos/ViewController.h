@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (void)presentViewController:(UIViewController *)viewController animated:(BOOL)animated animationView:(UIView *)animationView fromFrame:(CGRect)fromFrame toFrame:(CGRect)toFrame completion:(void (^ __nullable)(void))completion;
 
 @end
 

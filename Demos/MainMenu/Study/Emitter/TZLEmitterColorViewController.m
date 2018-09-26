@@ -24,7 +24,7 @@
     CAEmitterLayer *colorLayer = [CAEmitterLayer layer];
     self.colorLayer = colorLayer;
     [self.view.layer addSublayer:colorLayer];
-    colorLayer.emitterPosition = CGPointMake(self.view.width, 0);
+    colorLayer.emitterPosition = CGPointMake(self.view.width * 0.5, 200);
     colorLayer.emitterSize = CGSizeMake(self.view.width, 0);
     colorLayer.emitterShape = kCAEmitterLayerPoint;
     colorLayer.emitterMode = kCAEmitterLayerPoints;
@@ -36,6 +36,7 @@
     colorCell.lifetime = 20;
     colorCell.velocity = 40;
     colorCell.velocityRange = 100;
+//FIXME:运动方向跟 yAcceleration 和 emissionLongitude有关 yAcceleration是向下加速de
     colorCell.yAcceleration = 20;
     colorCell.emissionLongitude = M_PI;
     colorCell.emissionRange = M_PI_4;

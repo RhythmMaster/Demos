@@ -13,6 +13,8 @@
 #import "TZLEmitterRedPackageViewController.h"
 #import "TZLEmitterColorViewController.h"
 #import "TZLEmitterColorViewController.h"
+#import "TZLEmitterFireworksViewController.h"
+#import "TZLEmitterLikeViewController.h"
 
 @interface TZLEmitterViewController ()
 
@@ -23,9 +25,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.dataArr = @[@"下雨", @"下雪", @"红包雨", @"多彩泡泡"];
+    self.dataArr = @[@"下雨", @"下雪", @"红包雨", @"多彩泡泡", @"烟花", @"点赞"];
     self.controllerArr = @[[TZLEmitterRainViewController class], [TZLEmitterSnowViewController class],
-                           [TZLEmitterRedPackageViewController class], [TZLEmitterColorViewController class]];
+                           [TZLEmitterRedPackageViewController class], [TZLEmitterColorViewController class],
+                           [TZLEmitterFireworksViewController class], [TZLEmitterLikeViewController class]];
 }
 
 

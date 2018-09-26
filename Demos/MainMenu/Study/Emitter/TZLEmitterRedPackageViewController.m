@@ -23,10 +23,10 @@
 - (void)setEmitter {
     CAEmitterLayer *redPackageLayer = [CAEmitterLayer layer];
     [self.view.layer addSublayer:redPackageLayer];
-    redPackageLayer.emitterShape = kCAEmitterLayerPoint;
-    redPackageLayer.emitterMode = kCAEmitterLayerPoints;
+    redPackageLayer.emitterShape = kCAEmitterLayerLine;
+    redPackageLayer.emitterMode = kCAEmitterLayerOutline;
     redPackageLayer.emitterSize = CGSizeMake(self.view.width, 0);
-    redPackageLayer.emitterPosition = CGPointMake(self.view.width * 0.5, 0);
+    redPackageLayer.emitterPosition = CGPointMake(self.view.width * 0.5, self.view.height * 0.5);
     
     CAEmitterCell *redPackageCell = [CAEmitterCell emitterCell];
     redPackageCell.contents = (id)[UIImage imageNamed:@"red_paceket"].CGImage;
