@@ -18,10 +18,10 @@ static char endTransformAnimation_key;
     MyNavView *naviBackView = self.navigationBar.myNavView;
     return naviBackView.alpha;
 }
-- (void)setEndTransformAnimation:(NSString *)endTransformAnimation {
-    objc_setAssociatedObject(self, &endTransformAnimation_key, endTransformAnimation, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+- (void)setEndTransformAnimation:(BOOL)endTransformAnimation {
+    objc_setAssociatedObject(self, &endTransformAnimation_key, @(endTransformAnimation), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
-- (NSString *)endTransformAnimation {
-    return objc_getAssociatedObject(self, &endTransformAnimation_key);
+- (BOOL)endTransformAnimation {
+    return [objc_getAssociatedObject(self, &endTransformAnimation_key) boolValue];
 }
 @end

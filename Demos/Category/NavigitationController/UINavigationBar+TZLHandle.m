@@ -170,7 +170,7 @@ static char backClear_key, lineClear_key, myNavView_key;
         [self setBackgroundImage:self.backClearImage
                    forBarMetrics:UIBarMetricsDefault];
     }
-    self.barStyle = opaque ? UIBarStyleBlackOpaque : UIBarStyleDefault;
+//    self.barStyle = opaque ? UIBarStyleBlackOpaque : UIBarStyleDefault;
     //去掉系统底线，使用自定义底线
     if (!self.lineClearImage) {
         self.lineClearImage = [[UIImage alloc]init];

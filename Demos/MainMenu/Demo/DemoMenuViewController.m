@@ -21,7 +21,9 @@
     self.dataArr = @[@"模仿朋友圈顶部下拉效果", @"瀑布流的简单实现思路"];
     self.controllerArr = @[[PullDownHeadViewController class], [TZLWaterfallViewController class]];
 }
-
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

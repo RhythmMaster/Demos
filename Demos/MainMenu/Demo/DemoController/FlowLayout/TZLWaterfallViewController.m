@@ -35,12 +35,11 @@
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor redColor]}];
     self.tzl_navigationBarBackgroundAlpha = 0.f;
+    [self.navigationController.navigationBar setTitleTextAttributes:@{}];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor blackColor]}];
     [self.navigationController.navigationBar navBarToBeSystem];
 }
 - (void)didReceiveMemoryWarning {

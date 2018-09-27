@@ -16,5 +16,5 @@
  *  navigationBar's background alpha, when 0 your navigationBar will be invisable, default is 1. Animatable
  */
 @property (nonatomic, assign) CGFloat tzl_navigationBarBackgroundAlpha NS_AVAILABLE_IOS(7_0);
-@property (nonatomic, strong) NSString *endTransformAnimation;
+@property (nonatomic, assign) BOOL endTransformAnimation;
 @end

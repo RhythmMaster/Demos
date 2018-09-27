@@ -87,7 +87,7 @@
 }
 - (UIViewController *)popViewControllerAnimated:(BOOL)animated{
     self.isPush = NO;
-    if ([self.endTransformAnimation isEqualToString:@"1"]) {
+    if (self.endTransformAnimation) {
         self.delegate = nil;
     }
     return  [super popViewControllerAnimated:animated];

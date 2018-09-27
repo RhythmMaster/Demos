@@ -36,12 +36,12 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
-    self.navigationController.endTransformAnimation = @"0";
+    self.navigationController.endTransformAnimation = NO;
     [naviVC validatePanGestureRecognizerWithAnimation:YES];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    self.navigationController.endTransformAnimation = @"1";
+    self.navigationController.endTransformAnimation = YES;
 }
 
 - (void)rightAction:(UIButton *)sender {
