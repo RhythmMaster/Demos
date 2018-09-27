@@ -7,7 +7,9 @@
 //
 
 #import "UINavigationController+TZLExtension.h"
+#import <objc/runtime.h>
 
+static char endTransformAnimation_key;
 @implementation UINavigationController (TZLExtension)
 - (void)setTzl_navigationBarBackgroundAlpha:(CGFloat)tzl_navigationBarBackgroundAlpha {
     [self.navigationBar navBarAlpha:tzl_navigationBarBackgroundAlpha isOpaque:YES];
@@ -15,5 +17,11 @@
 - (CGFloat)tzl_navigationBarBackgroundAlpha {
     MyNavView *naviBackView = self.navigationBar.myNavView;
     return naviBackView.alpha;
+}
+- (void)setEndTransformAnimation:(NSString *)endTransformAnimation {
+    objc_setAssociatedObject(self, &endTransformAnimation_key, endTransformAnimation, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+- (NSString *)endTransformAnimation {
+    return objc_getAssociatedObject(self, &endTransformAnimation_key);
 }
 @end

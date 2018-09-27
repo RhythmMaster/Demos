@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TZLNavigationController : UINavigationController
+
+@property(nonatomic, strong) UIPercentDrivenInteractiveTransition *percentDriven;
+/**  */
+@property(nonatomic, strong) UIScreenEdgePanGestureRecognizer *recognizer;
 /**
  viewController: push的VC
  imageView: 做动画的view
@@ -17,4 +21,6 @@
  isPush: 是否push pop
  */
 - (void)pushViewController:(UIViewController *)viewController animationView:(UIView *)animationView desRec:(CGRect)desRec original:(CGRect)originalRec isPush:(BOOL)isPush;
+- (void)validatePanGestureRecognizerWithAnimation:(BOOL)animation;
+- (void)invalidatePanGestureRecognizer;
 @end

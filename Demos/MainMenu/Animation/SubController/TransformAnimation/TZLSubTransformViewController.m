@@ -32,8 +32,16 @@
         [btn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:btn];
     }
-    
-    [self setScreenEdgePanGestureRecognizer];
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
+    self.navigationController.endTransformAnimation = @"0";
+    [naviVC validatePanGestureRecognizerWithAnimation:YES];
+}
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    self.navigationController.endTransformAnimation = @"1";
 }
 
 - (void)rightAction:(UIButton *)sender {
@@ -45,28 +53,6 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)setScreenEdgePanGestureRecognizer {
-    UIScreenEdgePanGestureRecognizer *gestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(gestureAction:)];
-    gestureRecognizer.edges = UIRectEdgeLeft;
-    [self.view addGestureRecognizer:gestureRecognizer];
-}
-
-- (void)gestureAction:(UIScreenEdgePanGestureRecognizer *)recognizer {
-    CGFloat progress = [recognizer translationInView:self.view].x / self.view.frame.size.width * 2;
-    progress = MIN(1.0, MAX(0.0, progress));
-    if (recognizer.state == UIGestureRecognizerStateBegan) {
-        self.percentDriven = [[UIPercentDrivenInteractiveTransition alloc] init];
-        [self.navigationController popViewControllerAnimated:YES];
-    } else if (recognizer.state == UIGestureRecognizerStateChanged) {
-        [self.percentDriven updateInteractiveTransition:progress];
-    } else if (recognizer.state == UIGestureRecognizerStateEnded || recognizer.state == UIGestureRecognizerStateCancelled) {
-        if (progress > 0.2) {
-            [self.percentDriven finishInteractiveTransition];
-        }else{
-            [self.percentDriven cancelInteractiveTransition];
-        }
-    }
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
