@@ -8,6 +8,7 @@
 
 #import "TZLStudyViewController.h"
 #import "TZLEmitterViewController.h"
+#import "TZLUIBezierPathTableViewController.h"
 
 @interface TZLStudyViewController ()
 
@@ -17,8 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArr = @[@"粒子发射"];
-    self.controllerArr = @[[TZLEmitterViewController class]];
+    self.dataArr = @[@"粒子发射", @"UIBezierPath和drawRect:(CGRect)rect"];
+    self.controllerArr = @[[TZLEmitterViewController class], [TZLUIBezierPathTableViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {

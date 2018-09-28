@@ -45,6 +45,9 @@
 		24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */; };
 		24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D39215B68520002E7FC /* MKJPresentAnimator.m */; };
 		24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */; };
+		24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */; };
+		24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */; };
+		24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */; };
 		2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */; };
 		2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */; };
 		245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */; };
@@ -152,6 +155,12 @@
 		24427D3A215B68520002E7FC /* MKJPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJPresentAnimator.h; sourceTree = "<group>"; };
 		24427D3C215B79110002E7FC /* UINavigationBar+TZLHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TZLHandle.h"; sourceTree = "<group>"; };
 		24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TZLHandle.m"; sourceTree = "<group>"; };
+		24427D43215CD96C0002E7FC /* TZLUIBezierPathTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLUIBezierPathTableViewController.h; sourceTree = "<group>"; };
+		24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLUIBezierPathTableViewController.m; sourceTree = "<group>"; };
+		24427D46215DB96D0002E7FC /* TZLSubUIBezierPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLSubUIBezierPathViewController.h; sourceTree = "<group>"; };
+		24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLSubUIBezierPathViewController.m; sourceTree = "<group>"; };
+		24427D4A215DBE020002E7FC /* TZLUIBezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLUIBezierPathView.h; sourceTree = "<group>"; };
+		24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLUIBezierPathView.m; sourceTree = "<group>"; };
 		2450815821534A2F00C9657B /* TZLEmitterSnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterSnowViewController.h; sourceTree = "<group>"; };
 		2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterSnowViewController.m; sourceTree = "<group>"; };
 		2450815B21538D3A00C9657B /* TZLEmitterRedPackageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRedPackageViewController.h; sourceTree = "<group>"; };
@@ -427,6 +436,7 @@
 				241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */,
 				241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */,
 				241C38A621533D1A0062DCD3 /* Emitter */,
+				24427D3F215CD6D30002E7FC /* UIBezierPath */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -511,6 +521,27 @@
 				24427D35215B5C7B0002E7FC /* ZXPUnicode.m */,
 			);
 			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
+		24427D3F215CD6D30002E7FC /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				24427D49215DBDF00002E7FC /* View */,
+				24427D43215CD96C0002E7FC /* TZLUIBezierPathTableViewController.h */,
+				24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */,
+				24427D46215DB96D0002E7FC /* TZLSubUIBezierPathViewController.h */,
+				24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		24427D49215DBDF00002E7FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24427D4A215DBE020002E7FC /* TZLUIBezierPathView.h */,
+				24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		245081672154BEAC00C9657B /* TZLLikeButton */ = {
@@ -822,6 +853,7 @@
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
+				24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */,
 				24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */,
 				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
@@ -839,6 +871,7 @@
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
 				24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */,
 				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
+				24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
 				24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */,
@@ -848,6 +881,7 @@
 				24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */,
 				24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */,
 				24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */,
+				24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
 				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
