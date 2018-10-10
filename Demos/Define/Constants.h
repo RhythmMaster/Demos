@@ -31,4 +31,24 @@
 #define UI_IS_IPHONE6           (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0)
 #define UI_IS_IPHONE6PLUS       (UI_IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0 || [[UIScreen mainScreen] bounds].size.width == 736.0) // Both orientations
 
+/**
+ *  判断是否是空字符串 非空字符串 ＝ yes
+ *
+ *  @param string
+ *
+ *  @return
+ */
+
+#define  NOEmptyStr(string)  string == nil || string == NULL ||[string isKindOfClass:[NSNull class]] || [string isEqualToString: @""]  ||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0 ? NO : YES
+
+/**
+ *  判断是否是空字符串 空字符串 = yes
+ *
+ *  @param string
+ *
+ *  @return
+ */
+#define  IsEmptyStr(string) string == nil || string == NULL ||[string isKindOfClass:[NSNull class]]|| [string isEqualToString:@""] ||[[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0 ? YES : NO
+
+
 #endif /* Constants_h */

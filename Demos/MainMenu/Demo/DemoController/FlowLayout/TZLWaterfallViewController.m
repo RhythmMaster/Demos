@@ -35,7 +35,7 @@
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.tzl_navigationBarBackgroundAlpha = 0.f;
+//    self.tzl_navigationBarBackgroundAlpha = 0.f;
     [self.navigationController.navigationBar setTitleTextAttributes:@{}];
 }
 - (void)viewWillDisappear:(BOOL)animated {

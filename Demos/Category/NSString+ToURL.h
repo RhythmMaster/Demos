@@ -12,4 +12,6 @@
 
 @property (nonatomic,readonly) NSURL *tzl_URL;
 
+- (NSArray *)componentsSeparatedFromString:(NSString *)fromString toString:(NSString *)toString;
+
 @end

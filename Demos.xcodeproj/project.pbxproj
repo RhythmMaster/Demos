@@ -48,12 +48,14 @@
 		24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */; };
 		24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */; };
 		24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */; };
+		24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D4E215F19A90002E7FC /* HZWebViewController.m */; };
 		2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */; };
 		2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815C21538D3A00C9657B /* TZLEmitterRedPackageViewController.m */; };
 		245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450815F2153931C00C9657B /* TZLEmitterColorViewController.m */; };
 		2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2450816221549C7800C9657B /* TZLEmitterFireworksViewController.m */; };
 		245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */; };
 		2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081692154BEBB00C9657B /* TZLLikeButton.m */; };
+		246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B9041216DDB7A009EE2D9 /* TZLNetRequestViewController.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -161,6 +163,9 @@
 		24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLSubUIBezierPathViewController.m; sourceTree = "<group>"; };
 		24427D4A215DBE020002E7FC /* TZLUIBezierPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLUIBezierPathView.h; sourceTree = "<group>"; };
 		24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLUIBezierPathView.m; sourceTree = "<group>"; };
+		24427D4D215F19A90002E7FC /* HZWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZWebViewController.h; sourceTree = "<group>"; };
+		24427D4E215F19A90002E7FC /* HZWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZWebViewController.m; sourceTree = "<group>"; };
+		24427D50215F1A0E0002E7FC /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
 		2450815821534A2F00C9657B /* TZLEmitterSnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterSnowViewController.h; sourceTree = "<group>"; };
 		2450815921534A2F00C9657B /* TZLEmitterSnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterSnowViewController.m; sourceTree = "<group>"; };
 		2450815B21538D3A00C9657B /* TZLEmitterRedPackageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRedPackageViewController.h; sourceTree = "<group>"; };
@@ -173,6 +178,8 @@
 		245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterLikeViewController.m; sourceTree = "<group>"; };
 		245081682154BEBB00C9657B /* TZLLikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLikeButton.h; sourceTree = "<group>"; };
 		245081692154BEBB00C9657B /* TZLLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLikeButton.m; sourceTree = "<group>"; };
+		246B9040216DDB7A009EE2D9 /* TZLNetRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLNetRequestViewController.h; sourceTree = "<group>"; };
+		246B9041216DDB7A009EE2D9 /* TZLNetRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLNetRequestViewController.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -289,6 +296,8 @@
 		241C383A2140CC530062DCD3 /* BasicViewController */ = {
 			isa = PBXGroup;
 			children = (
+				24427D4D215F19A90002E7FC /* HZWebViewController.h */,
+				24427D4E215F19A90002E7FC /* HZWebViewController.m */,
 				241C383D2140CC530062DCD3 /* BasicViewController.h */,
 				241C383B2140CC530062DCD3 /* BasicViewController.m */,
 				241C383C2140CC530062DCD3 /* TZLNavigationController.h */,
@@ -386,6 +395,7 @@
 			children = (
 				241C38492140CEB90062DCD3 /* PrefixHeader.pch */,
 				241C386521410FFE0062DCD3 /* Constants.h */,
+				24427D50215F1A0E0002E7FC /* Request.h */,
 			);
 			path = Define;
 			sourceTree = "<group>";
@@ -435,6 +445,7 @@
 			children = (
 				241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */,
 				241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */,
+				246B903C216DDB33009EE2D9 /* NetRequest */,
 				241C38A621533D1A0062DCD3 /* Emitter */,
 				24427D3F215CD6D30002E7FC /* UIBezierPath */,
 			);
@@ -551,6 +562,15 @@
 				245081692154BEBB00C9657B /* TZLLikeButton.m */,
 			);
 			path = TZLLikeButton;
+			sourceTree = "<group>";
+		};
+		246B903C216DDB33009EE2D9 /* NetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				246B9040216DDB7A009EE2D9 /* TZLNetRequestViewController.h */,
+				246B9041216DDB7A009EE2D9 /* TZLNetRequestViewController.m */,
+			);
+			path = NetRequest;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -851,6 +871,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
+				246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
 				24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */,
@@ -873,6 +894,7 @@
 				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
 				24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
+				24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
 				24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */,
 				241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */,
