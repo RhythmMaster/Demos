@@ -11,4 +11,6 @@
 @interface TZLSubTransformViewController : ViewController
 /**  */
 @property(nonatomic, assign) BOOL noEx;
+/**  */
+@property(nonatomic, strong) NSString *imageName;
 @end

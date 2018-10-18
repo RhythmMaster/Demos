@@ -9,6 +9,7 @@
 #import "DemoMenuViewController.h"
 #import "PullDownHeadViewController.h"
 #import "TZLWaterfallViewController.h"
+#import "DrawCardViewController.h"
 
 @interface DemoMenuViewController ()
 
@@ -18,8 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArr = @[@"模仿朋友圈顶部下拉效果", @"瀑布流的简单实现思路"];
-    self.controllerArr = @[[PullDownHeadViewController class], [TZLWaterfallViewController class]];
+    self.dataArr = @[@"模仿朋友圈顶部下拉效果", @"瀑布流的简单实现思路",
+                     @"模拟率土之滨抽卡"];
+    self.controllerArr = @[[PullDownHeadViewController class], [TZLWaterfallViewController class],
+                           [DrawCardViewController class]];
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];

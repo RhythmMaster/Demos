@@ -63,7 +63,7 @@
     if (!_imageView) {
         _imageView = [UIImageView new];
         [self.view addSubview:_imageView];
-        UIImage *image = [UIImage imageNamed:@"direction"];
+        UIImage *image = [UIImage imageNamed:self.imageName ?: @"direction"];
         _imageView.frame = CGRectMake(100, 100, 250, 500);
         if (self.noEx) {
             _imageView.frame = CGRectMake(160, 160, 120, 250);

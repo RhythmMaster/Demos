@@ -21,7 +21,8 @@
         _backImageView = [UIImageView new];
         [self.contentView addSubview:_backImageView];
         [_backImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(0);
+            make.left.top.right.equalTo(0);
+            make.bottom.equalTo(-30);
         }];
         _backImageView.image = [UIImage imageNamed:@"direction"];
     }
@@ -32,7 +33,8 @@
         _label = [UILabel new];
         [self.contentView addSubview:_label];
         [_label mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.center.equalTo(0);
+            make.centerX.equalTo(0);
+            make.top.equalTo(self.backImageView.mas_bottom).equalTo(5);
         }];
     }
     return _label;

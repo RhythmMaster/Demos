@@ -36,6 +36,13 @@ static CGFloat TZLFloorCGFloat(CGFloat value) {
     if (!section) {
         return;
     }
+    
+    //FIXME:重置属性 不然刷新就鸡鸡了
+    [self.attributeses removeAllObjects];
+    for (NSInteger i = 0; i < self.column; i++) {
+        _lastLineColumnItemRect[i] = NSStringFromCGRect(CGRectMake(self.sectionInset.left, self.sectionInset.top, 0, 0));
+    }
+    
     for (NSInteger i = 0; i < section; i++) {
         NSInteger row = [self.collectionView numberOfItemsInSection:i];
         for (NSInteger j = 0; j < row; j++) {

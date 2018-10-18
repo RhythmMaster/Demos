@@ -56,6 +56,9 @@
 		245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */; };
 		2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 245081692154BEBB00C9657B /* TZLLikeButton.m */; };
 		246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B9041216DDB7A009EE2D9 /* TZLNetRequestViewController.m */; };
+		246B909A21787464009EE2D9 /* STZBCard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 246B909721787464009EE2D9 /* STZBCard.plist */; };
+		246B909B21787464009EE2D9 /* DrawCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B909821787464009EE2D9 /* DrawCardViewController.m */; };
+		246B909E21787617009EE2D9 /* TZLMyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B909D21787617009EE2D9 /* TZLMyCardViewController.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -180,6 +183,11 @@
 		245081692154BEBB00C9657B /* TZLLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLikeButton.m; sourceTree = "<group>"; };
 		246B9040216DDB7A009EE2D9 /* TZLNetRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLNetRequestViewController.h; sourceTree = "<group>"; };
 		246B9041216DDB7A009EE2D9 /* TZLNetRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLNetRequestViewController.m; sourceTree = "<group>"; };
+		246B909721787464009EE2D9 /* STZBCard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = STZBCard.plist; sourceTree = "<group>"; };
+		246B909821787464009EE2D9 /* DrawCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawCardViewController.m; sourceTree = "<group>"; };
+		246B909921787464009EE2D9 /* DrawCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCardViewController.h; sourceTree = "<group>"; };
+		246B909C21787617009EE2D9 /* TZLMyCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLMyCardViewController.h; sourceTree = "<group>"; };
+		246B909D21787617009EE2D9 /* TZLMyCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLMyCardViewController.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -331,6 +339,7 @@
 		241C384A2140D0640062DCD3 /* DemoController */ = {
 			isa = PBXGroup;
 			children = (
+				246B909621787464009EE2D9 /* DrawCard */,
 				241C3874214767990062DCD3 /* FlowLayout */,
 				241C3873214767780062DCD3 /* PullDown */,
 			);
@@ -573,6 +582,18 @@
 			path = NetRequest;
 			sourceTree = "<group>";
 		};
+		246B909621787464009EE2D9 /* DrawCard */ = {
+			isa = PBXGroup;
+			children = (
+				246B909721787464009EE2D9 /* STZBCard.plist */,
+				246B909921787464009EE2D9 /* DrawCardViewController.h */,
+				246B909821787464009EE2D9 /* DrawCardViewController.m */,
+				246B909C21787617009EE2D9 /* TZLMyCardViewController.h */,
+				246B909D21787617009EE2D9 /* TZLMyCardViewController.m */,
+			);
+			path = DrawCard;
+			sourceTree = "<group>";
+		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -697,6 +718,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241C38152140C5F50062DCD3 /* LaunchScreen.storyboard in Resources */,
+				246B909A21787464009EE2D9 /* STZBCard.plist in Resources */,
 				241C38122140C5F50062DCD3 /* Assets.xcassets in Resources */,
 				241C38102140C5F40062DCD3 /* Main.storyboard in Resources */,
 			);
@@ -893,6 +915,7 @@
 				24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */,
 				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
 				24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */,
+				246B909E21787617009EE2D9 /* TZLMyCardViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
@@ -902,6 +925,7 @@
 				24427D23215B11FD0002E7FC /* TZLSubTransformViewController.m in Sources */,
 				24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */,
 				24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */,
+				246B909B21787464009EE2D9 /* DrawCardViewController.m in Sources */,
 				24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */,
 				24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
