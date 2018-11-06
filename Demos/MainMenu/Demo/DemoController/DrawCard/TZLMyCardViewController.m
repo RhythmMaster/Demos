@@ -18,6 +18,7 @@
 /**  */
 @property(nonatomic, strong) NSArray *myArrs;
 
+
 @end
 
 @implementation TZLMyCardViewController
@@ -27,7 +28,16 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.myArrs = self.myCards.copy;
     [self collectionView];
+    [self createUI];
     
+}
+
+
+
+/**
+ *
+ */
+- (void)createUI {
     UIButton *threeStarBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:threeStarBtn];
     [threeStarBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -141,5 +151,6 @@
     }
     return _collectionView;
 }
+
 
 @end

@@ -36,6 +36,23 @@
 		241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */; };
 		241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38A821533D390062DCD3 /* TZLEmitterViewController.m */; };
 		241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */; };
+		2439001C2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439001B2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m */; };
+		2439001F219135590003D47F /* TZLAddVCContextTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */; };
+		243A0A55217967E6009EFCC8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A53217967E5009EFCC8 /* Model.xcdatamodeld */; };
+		243A0A6121796FCA009EFCC8 /* General+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A5E21796FCA009EFCC8 /* General+CoreDataProperties.m */; };
+		243A0A6221796FCA009EFCC8 /* General+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A5F21796FCA009EFCC8 /* General+CoreDataClass.m */; };
+		243A0A6521797008009EFCC8 /* TZLCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A6421797008009EFCC8 /* TZLCoreDataManager.m */; };
+		243A0A692179AF50009EFCC8 /* TZLGamesMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A682179AF50009EFCC8 /* TZLGamesMenuViewController.m */; };
+		243A0A6D2179B005009EFCC8 /* LHMakeRoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A6C2179B005009EFCC8 /* LHMakeRoleViewController.m */; };
+		243A0A712179D3E8009EFCC8 /* LHManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A702179D3E8009EFCC8 /* LHManagerViewController.m */; };
+		243A0A772179D4B4009EFCC8 /* LHMakeRoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A762179D4B4009EFCC8 /* LHMakeRoleView.m */; };
+		243A0A7C2179D7D0009EFCC8 /* LunHui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A7A2179D7D0009EFCC8 /* LunHui.xcdatamodeld */; };
+		243A0A812179DA2F009EFCC8 /* Entity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A7E2179DA2E009EFCC8 /* Entity+CoreDataClass.m */; };
+		243A0A822179DA2F009EFCC8 /* Entity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A802179DA2F009EFCC8 /* Entity+CoreDataProperties.m */; };
+		243A0A87217EC928009EFCC8 /* TYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A86217EC928009EFCC8 /* TYCViewController.m */; };
+		243A0A8B218016A2009EFCC8 /* TZLAddVCMeunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A8A218016A2009EFCC8 /* TZLAddVCMeunViewController.m */; };
+		243A0A8E2180172B009EFCC8 /* TZLAddVCOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A8D2180172B009EFCC8 /* TZLAddVCOneViewController.m */; };
+		243A0A912180173E009EFCC8 /* TZLChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A902180173E009EFCC8 /* TZLChildViewController.m */; };
 		24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D1A215B0DC00002E7FC /* TZLAnimationViewController.m */; };
 		24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D1E215B0E3C0002E7FC /* TZLTransformAnimationViewController.m */; };
 		24427D23215B11FD0002E7FC /* TZLSubTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D22215B11FD0002E7FC /* TZLSubTransformViewController.m */; };
@@ -142,6 +159,39 @@
 		241C38A821533D390062DCD3 /* TZLEmitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterViewController.m; sourceTree = "<group>"; };
 		241C38AA21533E2A0062DCD3 /* TZLEmitterRainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLEmitterRainViewController.h; sourceTree = "<group>"; };
 		241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLEmitterRainViewController.m; sourceTree = "<group>"; };
+		2439001A2191330B0003D47F /* TZLAddVCAnimatedTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAddVCAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2439001B2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2439001D219135590003D47F /* TZLAddVCContextTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAddVCContextTransitioning.h; sourceTree = "<group>"; };
+		2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCContextTransitioning.m; sourceTree = "<group>"; };
+		243A0A54217967E5009EFCC8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		243A0A5D21796FC9009EFCC8 /* General+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "General+CoreDataClass.h"; sourceTree = "<group>"; };
+		243A0A5E21796FCA009EFCC8 /* General+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "General+CoreDataProperties.m"; sourceTree = "<group>"; };
+		243A0A5F21796FCA009EFCC8 /* General+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "General+CoreDataClass.m"; sourceTree = "<group>"; };
+		243A0A6021796FCA009EFCC8 /* General+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "General+CoreDataProperties.h"; sourceTree = "<group>"; };
+		243A0A6321797008009EFCC8 /* TZLCoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLCoreDataManager.h; sourceTree = "<group>"; };
+		243A0A6421797008009EFCC8 /* TZLCoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLCoreDataManager.m; sourceTree = "<group>"; };
+		243A0A672179AF50009EFCC8 /* TZLGamesMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLGamesMenuViewController.h; sourceTree = "<group>"; };
+		243A0A682179AF50009EFCC8 /* TZLGamesMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLGamesMenuViewController.m; sourceTree = "<group>"; };
+		243A0A6B2179B005009EFCC8 /* LHMakeRoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHMakeRoleViewController.h; sourceTree = "<group>"; };
+		243A0A6C2179B005009EFCC8 /* LHMakeRoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHMakeRoleViewController.m; sourceTree = "<group>"; };
+		243A0A6F2179D3E8009EFCC8 /* LHManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHManagerViewController.h; sourceTree = "<group>"; };
+		243A0A702179D3E8009EFCC8 /* LHManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHManagerViewController.m; sourceTree = "<group>"; };
+		243A0A732179D43C009EFCC8 /* LunHuiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunHuiManager.h; sourceTree = "<group>"; };
+		243A0A752179D4B4009EFCC8 /* LHMakeRoleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHMakeRoleView.h; sourceTree = "<group>"; };
+		243A0A762179D4B4009EFCC8 /* LHMakeRoleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHMakeRoleView.m; sourceTree = "<group>"; };
+		243A0A7B2179D7D0009EFCC8 /* LunHui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LunHui.xcdatamodel; sourceTree = "<group>"; };
+		243A0A7D2179DA2E009EFCC8 /* Entity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		243A0A7E2179DA2E009EFCC8 /* Entity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataClass.m"; sourceTree = "<group>"; };
+		243A0A7F2179DA2F009EFCC8 /* Entity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataClass.h"; sourceTree = "<group>"; };
+		243A0A802179DA2F009EFCC8 /* Entity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		243A0A85217EC928009EFCC8 /* TYCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCViewController.h; sourceTree = "<group>"; };
+		243A0A86217EC928009EFCC8 /* TYCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCViewController.m; sourceTree = "<group>"; };
+		243A0A89218016A2009EFCC8 /* TZLAddVCMeunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAddVCMeunViewController.h; sourceTree = "<group>"; };
+		243A0A8A218016A2009EFCC8 /* TZLAddVCMeunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCMeunViewController.m; sourceTree = "<group>"; };
+		243A0A8C2180172B009EFCC8 /* TZLAddVCOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAddVCOneViewController.h; sourceTree = "<group>"; };
+		243A0A8D2180172B009EFCC8 /* TZLAddVCOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCOneViewController.m; sourceTree = "<group>"; };
+		243A0A8F2180173E009EFCC8 /* TZLChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLChildViewController.h; sourceTree = "<group>"; };
+		243A0A902180173E009EFCC8 /* TZLChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLChildViewController.m; sourceTree = "<group>"; };
 		24427D19215B0DC00002E7FC /* TZLAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAnimationViewController.h; sourceTree = "<group>"; };
 		24427D1A215B0DC00002E7FC /* TZLAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAnimationViewController.m; sourceTree = "<group>"; };
 		24427D1D215B0E3C0002E7FC /* TZLTransformAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLTransformAnimationViewController.h; sourceTree = "<group>"; };
@@ -266,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				241C386421410FD90062DCD3 /* Define */,
+				243A0A5C21796F98009EFCC8 /* CoreData */,
 				241C385221410F760062DCD3 /* Category */,
 				241C384E2141015B0062DCD3 /* Tools */,
 				241C383A2140CC530062DCD3 /* BasicViewController */,
@@ -319,6 +370,9 @@
 			children = (
 				241C38422140CCAC0062DCD3 /* MainMenuViewController.h */,
 				241C38432140CCAC0062DCD3 /* MainMenuViewController.m */,
+				243A0A85217EC928009EFCC8 /* TYCViewController.h */,
+				243A0A86217EC928009EFCC8 /* TYCViewController.m */,
+				243A0A662179AEF8009EFCC8 /* Games */,
 				24427D18215B0DAD0002E7FC /* Animation */,
 				241C38A221533C8B0062DCD3 /* Study */,
 				241C38452140CD300062DCD3 /* Demo */,
@@ -339,6 +393,7 @@
 		241C384A2140D0640062DCD3 /* DemoController */ = {
 			isa = PBXGroup;
 			children = (
+				243A0A882180167B009EFCC8 /* AddChildController */,
 				246B909621787464009EE2D9 /* DrawCard */,
 				241C3874214767990062DCD3 /* FlowLayout */,
 				241C3873214767780062DCD3 /* PullDown */,
@@ -481,6 +536,98 @@
 				245081652154BE8900C9657B /* TZLEmitterLikeViewController.m */,
 			);
 			path = Emitter;
+			sourceTree = "<group>";
+		};
+		24390019219131100003D47F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2439001A2191330B0003D47F /* TZLAddVCAnimatedTransitioning.h */,
+				2439001B2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m */,
+				2439001D219135590003D47F /* TZLAddVCContextTransitioning.h */,
+				2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		243A0A5C21796F98009EFCC8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A6321797008009EFCC8 /* TZLCoreDataManager.h */,
+				243A0A6421797008009EFCC8 /* TZLCoreDataManager.m */,
+				243A0A5F21796FCA009EFCC8 /* General+CoreDataClass.m */,
+				243A0A6021796FCA009EFCC8 /* General+CoreDataProperties.h */,
+				243A0A5D21796FC9009EFCC8 /* General+CoreDataClass.h */,
+				243A0A5E21796FCA009EFCC8 /* General+CoreDataProperties.m */,
+				243A0A53217967E5009EFCC8 /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		243A0A662179AEF8009EFCC8 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A672179AF50009EFCC8 /* TZLGamesMenuViewController.h */,
+				243A0A682179AF50009EFCC8 /* TZLGamesMenuViewController.m */,
+				243A0A6A2179AFDE009EFCC8 /* LunHui */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		243A0A6A2179AFDE009EFCC8 /* LunHui */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A732179D43C009EFCC8 /* LunHuiManager.h */,
+				243A0A792179D6ED009EFCC8 /* CordData */,
+				243A0A782179D6ED009EFCC8 /* Model */,
+				243A0A742179D453009EFCC8 /* View */,
+				243A0A6F2179D3E8009EFCC8 /* LHManagerViewController.h */,
+				243A0A702179D3E8009EFCC8 /* LHManagerViewController.m */,
+				243A0A6B2179B005009EFCC8 /* LHMakeRoleViewController.h */,
+				243A0A6C2179B005009EFCC8 /* LHMakeRoleViewController.m */,
+			);
+			path = LunHui;
+			sourceTree = "<group>";
+		};
+		243A0A742179D453009EFCC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A752179D4B4009EFCC8 /* LHMakeRoleView.h */,
+				243A0A762179D4B4009EFCC8 /* LHMakeRoleView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		243A0A782179D6ED009EFCC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A7F2179DA2F009EFCC8 /* Entity+CoreDataClass.h */,
+				243A0A7E2179DA2E009EFCC8 /* Entity+CoreDataClass.m */,
+				243A0A7D2179DA2E009EFCC8 /* Entity+CoreDataProperties.h */,
+				243A0A802179DA2F009EFCC8 /* Entity+CoreDataProperties.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243A0A792179D6ED009EFCC8 /* CordData */ = {
+			isa = PBXGroup;
+			children = (
+				243A0A7A2179D7D0009EFCC8 /* LunHui.xcdatamodeld */,
+			);
+			path = CordData;
+			sourceTree = "<group>";
+		};
+		243A0A882180167B009EFCC8 /* AddChildController */ = {
+			isa = PBXGroup;
+			children = (
+				24390019219131100003D47F /* Delegate */,
+				243A0A89218016A2009EFCC8 /* TZLAddVCMeunViewController.h */,
+				243A0A8A218016A2009EFCC8 /* TZLAddVCMeunViewController.m */,
+				243A0A8C2180172B009EFCC8 /* TZLAddVCOneViewController.h */,
+				243A0A8D2180172B009EFCC8 /* TZLAddVCOneViewController.m */,
+				243A0A8F2180173E009EFCC8 /* TZLChildViewController.h */,
+				243A0A902180173E009EFCC8 /* TZLChildViewController.m */,
+			);
+			path = AddChildController;
 			sourceTree = "<group>";
 		};
 		24427D18215B0DAD0002E7FC /* Animation */ = {
@@ -675,7 +822,7 @@
 		241C37FD2140C5F40062DCD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TZL;
+				CLASSPREFIX = LH;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = TZL;
 				TargetAttributes = {
@@ -892,6 +1039,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243A0A6D2179B005009EFCC8 /* LHMakeRoleViewController.m in Sources */,
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
@@ -901,13 +1049,21 @@
 				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
+				243A0A812179DA2F009EFCC8 /* Entity+CoreDataClass.m in Sources */,
+				243A0A692179AF50009EFCC8 /* TZLGamesMenuViewController.m in Sources */,
 				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
+				243A0A912180173E009EFCC8 /* TZLChildViewController.m in Sources */,
 				24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */,
+				243A0A87217EC928009EFCC8 /* TYCViewController.m in Sources */,
+				243A0A772179D4B4009EFCC8 /* LHMakeRoleView.m in Sources */,
 				241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */,
+				243A0A7C2179D7D0009EFCC8 /* LunHui.xcdatamodeld in Sources */,
 				2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */,
+				243A0A6121796FCA009EFCC8 /* General+CoreDataProperties.m in Sources */,
 				245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */,
 				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
+				243A0A8B218016A2009EFCC8 /* TZLAddVCMeunViewController.m in Sources */,
 				241C38A921533D390062DCD3 /* TZLEmitterViewController.m in Sources */,
 				2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */,
 				241C383F2140CC530062DCD3 /* BasicViewController.m in Sources */,
@@ -919,25 +1075,33 @@
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
+				243A0A6221796FCA009EFCC8 /* General+CoreDataClass.m in Sources */,
 				24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */,
 				241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */,
 				241C38442140CCAC0062DCD3 /* MainMenuViewController.m in Sources */,
 				24427D23215B11FD0002E7FC /* TZLSubTransformViewController.m in Sources */,
 				24427D1F215B0E3C0002E7FC /* TZLTransformAnimationViewController.m in Sources */,
+				2439001F219135590003D47F /* TZLAddVCContextTransitioning.m in Sources */,
 				24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */,
 				246B909B21787464009EE2D9 /* DrawCardViewController.m in Sources */,
+				243A0A712179D3E8009EFCC8 /* LHManagerViewController.m in Sources */,
+				243A0A55217967E6009EFCC8 /* Model.xcdatamodeld in Sources */,
 				24427D1B215B0DC00002E7FC /* TZLAnimationViewController.m in Sources */,
 				24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */,
+				243A0A8E2180172B009EFCC8 /* TZLAddVCOneViewController.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
 				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
+				2439001C2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m in Sources */,
 				241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */,
 				2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */,
 				241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */,
 				24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */,
 				241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */,
+				243A0A6521797008009EFCC8 /* TZLCoreDataManager.m in Sources */,
 				241C38482140CD570062DCD3 /* DemoMenuViewController.m in Sources */,
 				241C380A2140C5F40062DCD3 /* AppDelegate.m in Sources */,
+				243A0A822179DA2F009EFCC8 /* Entity+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1260,6 +1424,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		243A0A53217967E5009EFCC8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				243A0A54217967E5009EFCC8 /* Model.xcdatamodel */,
+			);
+			currentVersion = 243A0A54217967E5009EFCC8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		243A0A7A2179D7D0009EFCC8 /* LunHui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				243A0A7B2179D7D0009EFCC8 /* LunHui.xcdatamodel */,
+			);
+			currentVersion = 243A0A7B2179D7D0009EFCC8 /* LunHui.xcdatamodel */;
+			path = LunHui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 241C37FD2140C5F40062DCD3 /* Project object */;
 }

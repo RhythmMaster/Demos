@@ -46,7 +46,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // 立即取消选中
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (self.controllerArr && self.controllerArr.count > 0) {
+    if (self.controllerArr && self.controllerArr.count > 0 && indexPath.row < self.controllerArr.count) {
         UIViewController *VC = [self.controllerArr[indexPath.row] new];
         VC.title = self.dataArr[indexPath.row];
         [self.navigationController pushViewController:VC animated:YES];

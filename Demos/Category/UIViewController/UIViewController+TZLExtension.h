@@ -16,4 +16,6 @@
  设置当前控制器导航栏透明度
  */
 @property (nonatomic, assign) IBInspectable CGFloat tzl_navigationBarBackgroundAlpha;
+
+- (void)alertViewWithMessage:(NSString *)message;
 @end

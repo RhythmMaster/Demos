@@ -25,4 +25,20 @@
         return 1.f;
     }
 }
+
+- (void)alertViewWithMessage:(NSString *)message {
+    
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"提示" message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    [self presentViewController:alert animated:YES completion:^{
+        
+        [NSThread sleepForTimeInterval:0.2];
+        
+        [alert dismissViewControllerAnimated:YES completion:nil];
+        
+        
+    }];
+    
+    
+}
 @end

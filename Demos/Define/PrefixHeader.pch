@@ -19,6 +19,7 @@
 #import "BasicViewController.h"
 #import "TZLNavigationController.h"
 #import "HZWebViewController.h"
+#import "TZLCoreDataManager.h"
 
 
 #import "NSObject+Tools.h"
@@ -35,5 +36,9 @@
 #define MAS_SHORTHAND_GLOBALS
 #import <Masonry.h>
 #import <YYKit.h>
+
+
+
+#import "LunHuiManager.h"
 
 #endif /* PrefixHeader_pch */
