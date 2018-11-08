@@ -164,7 +164,7 @@
         _webView.tag = 1010110;
         _webView.scrollView.delegate = self;
         ///fineArts/fineArts.html
-        NSString *url = [NSString stringWithFormat:@"https://www.tianyancha.com/search/os1-la1-ot1/p2?base=wlmq"];
+        NSString *url = [NSString stringWithFormat:@"http://test.dayukeji.com/payment/games51play.html?v=1521992471915#"];
         if ([self.url hasPrefix:@"http://"] || [self.url hasPrefix:@"https://"]) {
             url = self.url;
         }

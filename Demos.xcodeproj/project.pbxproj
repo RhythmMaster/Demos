@@ -38,6 +38,11 @@
 		241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C38AB21533E2A0062DCD3 /* TZLEmitterRainViewController.m */; };
 		2439001C2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439001B2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m */; };
 		2439001F219135590003D47F /* TZLAddVCContextTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */; };
+		243900232192B5000003D47F /* TZLViewLoadingAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243900222192B5000003D47F /* TZLViewLoadingAnimationViewController.m */; };
+		243900272193D3740003D47F /* TZLLoadingViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 243900262193D3740003D47F /* TZLLoadingViewAnimation.m */; };
+		2439002A2193D5BF0003D47F /* UIView+TZLLoadingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 243900292193D5BF0003D47F /* UIView+TZLLoadingAnimation.m */; };
+		243900302194277F0003D47F /* TZLLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439002F2194277F0003D47F /* TZLLoadingTableViewCell.m */; };
+		2439003321942C300003D47F /* UITableView+TZLLoadingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2439003221942C300003D47F /* UITableView+TZLLoadingAnimation.m */; };
 		243A0A55217967E6009EFCC8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A53217967E5009EFCC8 /* Model.xcdatamodeld */; };
 		243A0A6121796FCA009EFCC8 /* General+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A5E21796FCA009EFCC8 /* General+CoreDataProperties.m */; };
 		243A0A6221796FCA009EFCC8 /* General+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A0A5F21796FCA009EFCC8 /* General+CoreDataClass.m */; };
@@ -163,6 +168,16 @@
 		2439001B2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCAnimatedTransitioning.m; sourceTree = "<group>"; };
 		2439001D219135590003D47F /* TZLAddVCContextTransitioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAddVCContextTransitioning.h; sourceTree = "<group>"; };
 		2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAddVCContextTransitioning.m; sourceTree = "<group>"; };
+		243900212192B5000003D47F /* TZLViewLoadingAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLViewLoadingAnimationViewController.h; sourceTree = "<group>"; };
+		243900222192B5000003D47F /* TZLViewLoadingAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLViewLoadingAnimationViewController.m; sourceTree = "<group>"; };
+		243900252193D3740003D47F /* TZLLoadingViewAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLoadingViewAnimation.h; sourceTree = "<group>"; };
+		243900262193D3740003D47F /* TZLLoadingViewAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLoadingViewAnimation.m; sourceTree = "<group>"; };
+		243900282193D5BF0003D47F /* UIView+TZLLoadingAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TZLLoadingAnimation.h"; sourceTree = "<group>"; };
+		243900292193D5BF0003D47F /* UIView+TZLLoadingAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TZLLoadingAnimation.m"; sourceTree = "<group>"; };
+		2439002E2194277F0003D47F /* TZLLoadingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLoadingTableViewCell.h; sourceTree = "<group>"; };
+		2439002F2194277F0003D47F /* TZLLoadingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLoadingTableViewCell.m; sourceTree = "<group>"; };
+		2439003121942C300003D47F /* UITableView+TZLLoadingAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TZLLoadingAnimation.h"; sourceTree = "<group>"; };
+		2439003221942C300003D47F /* UITableView+TZLLoadingAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TZLLoadingAnimation.m"; sourceTree = "<group>"; };
 		243A0A54217967E5009EFCC8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		243A0A5D21796FC9009EFCC8 /* General+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "General+CoreDataClass.h"; sourceTree = "<group>"; };
 		243A0A5E21796FCA009EFCC8 /* General+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "General+CoreDataProperties.m"; sourceTree = "<group>"; };
@@ -372,6 +387,7 @@
 				241C38432140CCAC0062DCD3 /* MainMenuViewController.m */,
 				243A0A85217EC928009EFCC8 /* TYCViewController.h */,
 				243A0A86217EC928009EFCC8 /* TYCViewController.m */,
+				243900202192B4D70003D47F /* ViewLoadingAnimation */,
 				243A0A662179AEF8009EFCC8 /* Games */,
 				24427D18215B0DAD0002E7FC /* Animation */,
 				241C38A221533C8B0062DCD3 /* Study */,
@@ -547,6 +563,31 @@
 				2439001E219135590003D47F /* TZLAddVCContextTransitioning.m */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		243900202192B4D70003D47F /* ViewLoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				243900242193D3650003D47F /* TZLLoadingViewAnimation */,
+				243900212192B5000003D47F /* TZLViewLoadingAnimationViewController.h */,
+				243900222192B5000003D47F /* TZLViewLoadingAnimationViewController.m */,
+				2439002E2194277F0003D47F /* TZLLoadingTableViewCell.h */,
+				2439002F2194277F0003D47F /* TZLLoadingTableViewCell.m */,
+			);
+			path = ViewLoadingAnimation;
+			sourceTree = "<group>";
+		};
+		243900242193D3650003D47F /* TZLLoadingViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				243900252193D3740003D47F /* TZLLoadingViewAnimation.h */,
+				243900262193D3740003D47F /* TZLLoadingViewAnimation.m */,
+				243900282193D5BF0003D47F /* UIView+TZLLoadingAnimation.h */,
+				243900292193D5BF0003D47F /* UIView+TZLLoadingAnimation.m */,
+				2439003121942C300003D47F /* UITableView+TZLLoadingAnimation.h */,
+				2439003221942C300003D47F /* UITableView+TZLLoadingAnimation.m */,
+			);
+			path = TZLLoadingViewAnimation;
 			sourceTree = "<group>";
 		};
 		243A0A5C21796F98009EFCC8 /* CoreData */ = {
@@ -822,7 +863,7 @@
 		241C37FD2140C5F40062DCD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = LH;
+				CLASSPREFIX = TZL;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = TZL;
 				TargetAttributes = {
@@ -1040,6 +1081,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				243A0A6D2179B005009EFCC8 /* LHMakeRoleViewController.m in Sources */,
+				2439002A2193D5BF0003D47F /* UIView+TZLLoadingAnimation.m in Sources */,
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
 				246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
@@ -1051,6 +1093,7 @@
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
 				243A0A812179DA2F009EFCC8 /* Entity+CoreDataClass.m in Sources */,
 				243A0A692179AF50009EFCC8 /* TZLGamesMenuViewController.m in Sources */,
+				243900302194277F0003D47F /* TZLLoadingTableViewCell.m in Sources */,
 				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
 				243A0A912180173E009EFCC8 /* TZLChildViewController.m in Sources */,
@@ -1060,6 +1103,7 @@
 				241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */,
 				243A0A7C2179D7D0009EFCC8 /* LunHui.xcdatamodeld in Sources */,
 				2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */,
+				243900272193D3740003D47F /* TZLLoadingViewAnimation.m in Sources */,
 				243A0A6121796FCA009EFCC8 /* General+CoreDataProperties.m in Sources */,
 				245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */,
 				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
@@ -1076,6 +1120,7 @@
 				24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
 				243A0A6221796FCA009EFCC8 /* General+CoreDataClass.m in Sources */,
+				2439003321942C300003D47F /* UITableView+TZLLoadingAnimation.m in Sources */,
 				24427D27215B13600002E7FC /* TZLCustomTransformAnimation.m in Sources */,
 				241C38AC21533E2A0062DCD3 /* TZLEmitterRainViewController.m in Sources */,
 				241C38442140CCAC0062DCD3 /* MainMenuViewController.m in Sources */,
@@ -1091,6 +1136,7 @@
 				243A0A8E2180172B009EFCC8 /* TZLAddVCOneViewController.m in Sources */,
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
+				243900232192B5000003D47F /* TZLViewLoadingAnimationViewController.m in Sources */,
 				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
 				2439001C2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m in Sources */,
 				241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */,

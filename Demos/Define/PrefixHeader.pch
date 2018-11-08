@@ -20,7 +20,7 @@
 #import "TZLNavigationController.h"
 #import "HZWebViewController.h"
 #import "TZLCoreDataManager.h"
-
+#import "TZLLoadingViewAnimation.h"
 
 #import "NSObject+Tools.h"
 #import "NSString+ToURL.h"
