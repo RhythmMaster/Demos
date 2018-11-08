@@ -114,11 +114,17 @@
     // Dispose of any resources that can be recreated.
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    if (tableView.startOrEndForSelfIsSuperView == YES) {
+        return 1;
+    }
     return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    if (tableView.startOrEndForSelfIsSuperView == YES) {
+        return 5;
+    }
+    return 20;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {

@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "UIView+TZLLoadingAnimation.h"
-#import "UITableView+TZLLoadingAnimation.m"
 
 @interface TZLLoadingViewAnimation : NSObject
 
