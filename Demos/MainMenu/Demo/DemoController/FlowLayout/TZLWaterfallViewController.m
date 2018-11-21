@@ -28,19 +28,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self.collectionView tzl_addHeadViewWithFrame:CGRectMake(0, 0, kScreenW, 150) view:self.stretchyHeadView];;
     [self collectionView];
-    [self stretchyHeadView];
     self.statusBarStyle = UIStatusBarStyleLightContent;
     
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-//    self.tzl_navigationBarBackgroundAlpha = 0.f;
-    [self.navigationController.navigationBar setTitleTextAttributes:@{}];
+    [self initNavigationViewWithBackgroundColor:[UIColor orangeColor] alpha:0.0 backImageName:@"" backText:@"" title:@""];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [self.navigationController.navigationBar navBarToBeSystem];
+    [self reBackNavigation];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -51,18 +50,20 @@
     return self.statusBarStyle;
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-}
+
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat offset_Y = scrollView.contentOffset.y;
-    //NSLog(@"%f", offset_Y);
-    if (offset_Y < -64) {
-        self.statusBarStyle = UIStatusBarStyleLightContent;
-    } else {
-        self.statusBarStyle = UIStatusBarStyleDefault;
+//    NSLog(@"%f", offset_Y);
+    //150是头部视图的高度 这里取值要固定好 不能通过self.stretchyHeadView.frame.size.height 取
+    if (offset_Y >= -(150 + statusBarHeight)) {
+        CGFloat alpha = (150 + statusBarHeight + offset_Y) / (150 - 44 - statusBarHeight);
+        [self changeNaviBarAlpha:alpha];
+        if (alpha > 0.5) {
+            self.statusBarStyle = UIStatusBarStyleLightContent;
+        } else {
+            self.statusBarStyle = UIStatusBarStyleDefault;
+        }
     }
     [self setNeedsStatusBarAppearanceUpdate];
 }
@@ -85,7 +86,6 @@
     TZLSubTransformViewController *subVC = [TZLSubTransformViewController new];
     TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
     [naviVC pushViewController:subVC animationView:cell desRec:CGRectMake(100, 100, 250, 500) original:frame isPush:YES];
-    naviVC.tzl_navigationBarBackgroundAlpha = 0.f;
 }
 
 - (UICollectionView *)collectionView {
@@ -94,7 +94,8 @@
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
         [self.view addSubview:_collectionView];
         [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(0);
+            make.left.right.bottom.equalTo(0);
+            make.top.equalTo(-20);
         }];
         _collectionView.backgroundColor = [UIColor whiteColor];
         _collectionView.delegate = self;
@@ -105,8 +106,8 @@
 }
 - (TZLStretchyHeadView *)stretchyHeadView {
     if (!_stretchyHeadView) {
-        _stretchyHeadView = [[TZLStretchyHeadView alloc] initWithFrame:CGRectMake(0, -164, self.view.width, 164)];
-        [self.collectionView addSubview:_stretchyHeadView];
+        _stretchyHeadView = [[TZLStretchyHeadView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 150)];
+//        [self.collectionView addSubview:_stretchyHeadView];
     }
     return _stretchyHeadView;
 }

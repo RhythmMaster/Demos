@@ -23,7 +23,6 @@
 		241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3850214101760062DCD3 /* NSObject+Tools.m */; };
 		241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C385321410F860062DCD3 /* NSString+ToURL.m */; };
 		241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C385621410F870062DCD3 /* UIViewController+TZLExtension.m */; };
-		241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */; };
 		241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C385B21410F870062DCD3 /* NSObject+NetWorking.m */; };
 		241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C385C21410F870062DCD3 /* NSNumber+TZLExtension.m */; };
 		241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C3868214111F90062DCD3 /* TZLStretchyHeadView.m */; };
@@ -65,7 +64,6 @@
 		24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D35215B5C7B0002E7FC /* ZXPUnicode.m */; };
 		24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */; };
 		24427D3B215B68520002E7FC /* MKJPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D39215B68520002E7FC /* MKJPresentAnimator.m */; };
-		24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */; };
 		24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */; };
 		24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D47215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m */; };
 		24427D4C215DBE020002E7FC /* TZLUIBezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24427D4B215DBE020002E7FC /* TZLUIBezierPathView.m */; };
@@ -80,6 +78,14 @@
 		246B909A21787464009EE2D9 /* STZBCard.plist in Resources */ = {isa = PBXBuildFile; fileRef = 246B909721787464009EE2D9 /* STZBCard.plist */; };
 		246B909B21787464009EE2D9 /* DrawCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B909821787464009EE2D9 /* DrawCardViewController.m */; };
 		246B909E21787617009EE2D9 /* TZLMyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246B909D21787617009EE2D9 /* TZLMyCardViewController.m */; };
+		2495E40421990F240071BFAC /* TZLDistributionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2495E40321990F240071BFAC /* TZLDistributionViewController.m */; };
+		2495E40A21991DE20071BFAC /* TZLSignRecordTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2495E40921991DE20071BFAC /* TZLSignRecordTVCell.m */; };
+		249BB33E21A298AA00AA462A /* TZLStudyNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB33D21A298AA00AA462A /* TZLStudyNaviViewController.m */; };
+		249BB34221A2B25700AA462A /* TZLFrameAndBoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB34121A2B25700AA462A /* TZLFrameAndBoundsViewController.m */; };
+		249BB34521A3D94800AA462A /* UIViewController+TZLCusNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB34421A3D94800AA462A /* UIViewController+TZLCusNavigation.m */; };
+		249BB34F21A4F29700AA462A /* UITableView+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB34E21A4F29700AA462A /* UITableView+TZLExtension.m */; };
+		249BB35421A5034C00AA462A /* UINavigationController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB35021A5034800AA462A /* UINavigationController+TZLExtension.m */; };
+		249BB35921A5079900AA462A /* UICollectionView+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -135,8 +141,6 @@
 		241C385321410F860062DCD3 /* NSString+ToURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ToURL.m"; sourceTree = "<group>"; };
 		241C385521410F870062DCD3 /* UIViewController+TZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZLExtension.h"; sourceTree = "<group>"; };
 		241C385621410F870062DCD3 /* UIViewController+TZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZLExtension.m"; sourceTree = "<group>"; };
-		241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TZLExtension.m"; sourceTree = "<group>"; };
-		241C385921410F870062DCD3 /* UINavigationController+TZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TZLExtension.h"; sourceTree = "<group>"; };
 		241C385A21410F870062DCD3 /* NSNumber+TZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+TZLExtension.h"; sourceTree = "<group>"; };
 		241C385B21410F870062DCD3 /* NSObject+NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NetWorking.m"; sourceTree = "<group>"; };
 		241C385C21410F870062DCD3 /* NSNumber+TZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+TZLExtension.m"; sourceTree = "<group>"; };
@@ -220,8 +224,6 @@
 		24427D36215B5C7B0002E7FC /* NSObject+HZRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HZRuntime.m"; sourceTree = "<group>"; };
 		24427D39215B68520002E7FC /* MKJPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJPresentAnimator.m; sourceTree = "<group>"; };
 		24427D3A215B68520002E7FC /* MKJPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJPresentAnimator.h; sourceTree = "<group>"; };
-		24427D3C215B79110002E7FC /* UINavigationBar+TZLHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+TZLHandle.h"; sourceTree = "<group>"; };
-		24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+TZLHandle.m"; sourceTree = "<group>"; };
 		24427D43215CD96C0002E7FC /* TZLUIBezierPathTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLUIBezierPathTableViewController.h; sourceTree = "<group>"; };
 		24427D44215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLUIBezierPathTableViewController.m; sourceTree = "<group>"; };
 		24427D46215DB96D0002E7FC /* TZLSubUIBezierPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLSubUIBezierPathViewController.h; sourceTree = "<group>"; };
@@ -250,6 +252,22 @@
 		246B909921787464009EE2D9 /* DrawCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCardViewController.h; sourceTree = "<group>"; };
 		246B909C21787617009EE2D9 /* TZLMyCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLMyCardViewController.h; sourceTree = "<group>"; };
 		246B909D21787617009EE2D9 /* TZLMyCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLMyCardViewController.m; sourceTree = "<group>"; };
+		2495E40221990F240071BFAC /* TZLDistributionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLDistributionViewController.h; sourceTree = "<group>"; };
+		2495E40321990F240071BFAC /* TZLDistributionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLDistributionViewController.m; sourceTree = "<group>"; };
+		2495E40821991DE20071BFAC /* TZLSignRecordTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLSignRecordTVCell.h; sourceTree = "<group>"; };
+		2495E40921991DE20071BFAC /* TZLSignRecordTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLSignRecordTVCell.m; sourceTree = "<group>"; };
+		249BB33C21A298AA00AA462A /* TZLStudyNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLStudyNaviViewController.h; sourceTree = "<group>"; };
+		249BB33D21A298AA00AA462A /* TZLStudyNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLStudyNaviViewController.m; sourceTree = "<group>"; };
+		249BB34021A2B25700AA462A /* TZLFrameAndBoundsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLFrameAndBoundsViewController.h; sourceTree = "<group>"; };
+		249BB34121A2B25700AA462A /* TZLFrameAndBoundsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLFrameAndBoundsViewController.m; sourceTree = "<group>"; };
+		249BB34321A3D94800AA462A /* UIViewController+TZLCusNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TZLCusNavigation.h"; sourceTree = "<group>"; };
+		249BB34421A3D94800AA462A /* UIViewController+TZLCusNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TZLCusNavigation.m"; sourceTree = "<group>"; };
+		249BB34D21A4F29700AA462A /* UITableView+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TZLExtension.h"; sourceTree = "<group>"; };
+		249BB34E21A4F29700AA462A /* UITableView+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TZLExtension.m"; sourceTree = "<group>"; };
+		249BB35021A5034800AA462A /* UINavigationController+TZLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TZLExtension.m"; sourceTree = "<group>"; };
+		249BB35121A5034900AA462A /* UINavigationController+TZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TZLExtension.h"; sourceTree = "<group>"; };
+		249BB35721A5079900AA462A /* UICollectionView+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TZLExtension.h"; sourceTree = "<group>"; };
+		249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TZLExtension.m"; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -406,6 +424,7 @@
 		241C384A2140D0640062DCD3 /* DemoController */ = {
 			isa = PBXGroup;
 			children = (
+				2495E40121990F080071BFAC /* DistributionView */,
 				243A0A882180167B009EFCC8 /* AddChildController */,
 				246B909621787464009EE2D9 /* DrawCard */,
 				241C3874214767990062DCD3 /* FlowLayout */,
@@ -428,6 +447,8 @@
 		241C385221410F760062DCD3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				249BB35621A5077600AA462A /* UICollectionView */,
+				249BB34C21A4F27200AA462A /* UITableView */,
 				24427D31215B5C7B0002E7FC /* NSObject */,
 				241C385421410F870062DCD3 /* UIViewController */,
 				241C385721410F870062DCD3 /* NavigitationController */,
@@ -448,6 +469,8 @@
 			children = (
 				241C385521410F870062DCD3 /* UIViewController+TZLExtension.h */,
 				241C385621410F870062DCD3 /* UIViewController+TZLExtension.m */,
+				249BB34321A3D94800AA462A /* UIViewController+TZLCusNavigation.h */,
+				249BB34421A3D94800AA462A /* UIViewController+TZLCusNavigation.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -457,10 +480,8 @@
 			children = (
 				24427D2D215B5C3E0002E7FC /* UIBarButtonItem+HZBarButtonItem.h */,
 				24427D2E215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m */,
-				24427D3C215B79110002E7FC /* UINavigationBar+TZLHandle.h */,
-				24427D3D215B79110002E7FC /* UINavigationBar+TZLHandle.m */,
-				241C385921410F870062DCD3 /* UINavigationController+TZLExtension.h */,
-				241C385821410F870062DCD3 /* UINavigationController+TZLExtension.m */,
+				249BB35121A5034900AA462A /* UINavigationController+TZLExtension.h */,
+				249BB35021A5034800AA462A /* UINavigationController+TZLExtension.m */,
 				241C3870214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.h */,
 				241C3871214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m */,
 			);
@@ -522,6 +543,8 @@
 			children = (
 				241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */,
 				241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */,
+				249BB33F21A2B24700AA462A /* FrameAndBounds */,
+				249BB33821A2980B00AA462A /* Navi */,
 				246B903C216DDB33009EE2D9 /* NetRequest */,
 				241C38A621533D1A0062DCD3 /* Emitter */,
 				24427D3F215CD6D30002E7FC /* UIBezierPath */,
@@ -775,6 +798,53 @@
 				246B909D21787617009EE2D9 /* TZLMyCardViewController.m */,
 			);
 			path = DrawCard;
+			sourceTree = "<group>";
+		};
+		2495E40121990F080071BFAC /* DistributionView */ = {
+			isa = PBXGroup;
+			children = (
+				2495E40221990F240071BFAC /* TZLDistributionViewController.h */,
+				2495E40321990F240071BFAC /* TZLDistributionViewController.m */,
+				2495E40821991DE20071BFAC /* TZLSignRecordTVCell.h */,
+				2495E40921991DE20071BFAC /* TZLSignRecordTVCell.m */,
+			);
+			path = DistributionView;
+			sourceTree = "<group>";
+		};
+		249BB33821A2980B00AA462A /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				249BB33C21A298AA00AA462A /* TZLStudyNaviViewController.h */,
+				249BB33D21A298AA00AA462A /* TZLStudyNaviViewController.m */,
+			);
+			path = Navi;
+			sourceTree = "<group>";
+		};
+		249BB33F21A2B24700AA462A /* FrameAndBounds */ = {
+			isa = PBXGroup;
+			children = (
+				249BB34021A2B25700AA462A /* TZLFrameAndBoundsViewController.h */,
+				249BB34121A2B25700AA462A /* TZLFrameAndBoundsViewController.m */,
+			);
+			path = FrameAndBounds;
+			sourceTree = "<group>";
+		};
+		249BB34C21A4F27200AA462A /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				249BB34D21A4F29700AA462A /* UITableView+TZLExtension.h */,
+				249BB34E21A4F29700AA462A /* UITableView+TZLExtension.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		249BB35621A5077600AA462A /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				249BB35721A5079900AA462A /* UICollectionView+TZLExtension.h */,
+				249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */,
+			);
+			path = UICollectionView;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -1078,10 +1148,12 @@
 				243A0A6D2179B005009EFCC8 /* LHMakeRoleViewController.m in Sources */,
 				2439002A2193D5BF0003D47F /* UIView+TZLLoadingAnimation.m in Sources */,
 				241C386321410F880062DCD3 /* NSNumber+TZLExtension.m in Sources */,
+				249BB33E21A298AA00AA462A /* TZLStudyNaviViewController.m in Sources */,
 				246B9042216DDB7A009EE2D9 /* TZLNetRequestViewController.m in Sources */,
 				241C3851214101760062DCD3 /* NSObject+Tools.m in Sources */,
 				241C38402140CC530062DCD3 /* TZLNavigationController.m in Sources */,
 				24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */,
+				249BB35921A5079900AA462A /* UICollectionView+TZLExtension.m in Sources */,
 				24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */,
 				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
@@ -1090,9 +1162,9 @@
 				243A0A692179AF50009EFCC8 /* TZLGamesMenuViewController.m in Sources */,
 				243900302194277F0003D47F /* TZLLoadingTableViewCell.m in Sources */,
 				241C387E2147A0030062DCD3 /* TZLWaterfallCollectionViewCell.m in Sources */,
+				2495E40421990F240071BFAC /* TZLDistributionViewController.m in Sources */,
 				241C386C2141136D0062DCD3 /* UIView+TZLFrame.m in Sources */,
 				243A0A912180173E009EFCC8 /* TZLChildViewController.m in Sources */,
-				24427D3E215B79110002E7FC /* UINavigationBar+TZLHandle.m in Sources */,
 				243A0A87217EC928009EFCC8 /* TYCViewController.m in Sources */,
 				243A0A772179D4B4009EFCC8 /* LHMakeRoleView.m in Sources */,
 				241C38A521533CBF0062DCD3 /* TZLStudyViewController.m in Sources */,
@@ -1100,6 +1172,7 @@
 				2450816321549C7800C9657B /* TZLEmitterFireworksViewController.m in Sources */,
 				243900272193D3740003D47F /* TZLLoadingViewAnimation.m in Sources */,
 				243A0A6121796FCA009EFCC8 /* General+CoreDataProperties.m in Sources */,
+				249BB34521A3D94800AA462A /* UIViewController+TZLCusNavigation.m in Sources */,
 				245081602153931C00C9657B /* TZLEmitterColorViewController.m in Sources */,
 				241C387B214769C30062DCD3 /* TZLCollectionViewWaterfallLayout.m in Sources */,
 				243A0A8B218016A2009EFCC8 /* TZLAddVCMeunViewController.m in Sources */,
@@ -1109,6 +1182,7 @@
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
 				24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */,
 				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
+				249BB34F21A4F29700AA462A /* UITableView+TZLExtension.m in Sources */,
 				24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */,
 				246B909E21787617009EE2D9 /* TZLMyCardViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
@@ -1131,14 +1205,16 @@
 				241C386F2141190C0062DCD3 /* UIView+TZLExtension.m in Sources */,
 				241C384D2140D0D20062DCD3 /* PullDownHeadViewController.m in Sources */,
 				243900232192B5000003D47F /* TZLViewLoadingAnimationViewController.m in Sources */,
-				241C386121410F880062DCD3 /* UINavigationController+TZLExtension.m in Sources */,
 				2439001C2191330B0003D47F /* TZLAddVCAnimatedTransitioning.m in Sources */,
 				241C3872214124B30062DCD3 /* UINavigationController+TZLStatusBarStyle.m in Sources */,
+				249BB34221A2B25700AA462A /* TZLFrameAndBoundsViewController.m in Sources */,
 				2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */,
+				2495E40A21991DE20071BFAC /* TZLSignRecordTVCell.m in Sources */,
 				241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */,
 				24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */,
 				241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */,
 				243A0A6521797008009EFCC8 /* TZLCoreDataManager.m in Sources */,
+				249BB35421A5034C00AA462A /* UINavigationController+TZLExtension.m in Sources */,
 				241C38482140CD570062DCD3 /* DemoMenuViewController.m in Sources */,
 				241C380A2140C5F40062DCD3 /* AppDelegate.m in Sources */,
 				243A0A822179DA2F009EFCC8 /* Entity+CoreDataProperties.m in Sources */,

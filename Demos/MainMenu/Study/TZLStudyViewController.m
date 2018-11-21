@@ -10,6 +10,8 @@
 #import "TZLEmitterViewController.h"
 #import "TZLUIBezierPathTableViewController.h"
 #import "TZLNetRequestViewController.h"
+#import "TZLStudyNaviViewController.h"
+#import "TZLFrameAndBoundsViewController.h"
 
 @interface TZLStudyViewController ()
 
@@ -20,9 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataArr = @[@"粒子发射", @"UIBezierPath和drawRect:(CGRect)rect",
-                     @"原生网络请求"];
+                     @"原生网络请求", @"好好学习下导航栏", @"frame和bounds"];
     self.controllerArr = @[[TZLEmitterViewController class], [TZLUIBezierPathTableViewController class],
-                           [TZLNetRequestViewController class]];
+                           [TZLNetRequestViewController class], [TZLStudyNaviViewController class],
+                           [TZLFrameAndBoundsViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {

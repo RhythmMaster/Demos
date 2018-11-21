@@ -18,5 +18,5 @@
 @property (nonatomic) CGFloat height;
 @property (nonatomic) CGSize size;
 @property (nonatomic) CGPoint origin;
-
+- (UIViewController *)getCurrentViewController;
 @end

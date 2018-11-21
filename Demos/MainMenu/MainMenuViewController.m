@@ -13,7 +13,7 @@
 #import "TZLAnimationViewController.h"
 #import "TZLGamesMenuViewController.h"
 #import "HZWebViewController.h"
-#import "TZLViewLoadingAnimationViewController.h"
+
 
 @interface MainMenuViewController ()
 
@@ -24,8 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"主菜单";
-    self.dataArr = @[@"功能性demo", @"知识点学习", @"动画", @"天眼查", @"view的网络加载过度动画"];
-    self.controllerArr = @[[DemoMenuViewController class], [TZLStudyViewController class], [TZLAnimationViewController class], [HZWebViewController class], [TZLViewLoadingAnimationViewController class]];
+    self.dataArr = @[@"功能性demo", @"知识点学习", @"动画"];
+    self.controllerArr = @[[DemoMenuViewController class], [TZLStudyViewController class], [TZLAnimationViewController class], [HZWebViewController class]];
     
 }
 

@@ -18,9 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
 
     MainMenuViewController *mainVC = [MainMenuViewController new];
     TZLNavigationController *naviVC = [[TZLNavigationController alloc] initWithRootViewController:mainVC];
+    naviVC.navigationBar.barTintColor = [UIColor orangeColor];
+    naviVC.navigationBar.barStyle = UIBarStyleBlack;
+    naviVC.navigationBar.tintColor = [UIColor whiteColor];
     self.window.rootViewController = naviVC;
     
     return YES;

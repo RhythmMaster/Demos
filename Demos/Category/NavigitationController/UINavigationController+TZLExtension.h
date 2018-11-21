@@ -7,14 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UINavigationBar+TZLHandle.h"
 
 @interface UINavigationController (TZLExtension)
-/**
- *  @author tzl, 18-09-05 16:14:24
- *
- *  navigationBar's background alpha, when 0 your navigationBar will be invisable, default is 1. Animatable
- */
-@property (nonatomic, assign) CGFloat tzl_navigationBarBackgroundAlpha NS_AVAILABLE_IOS(7_0);
 @property (nonatomic, assign) BOOL endTransformAnimation;
 @end

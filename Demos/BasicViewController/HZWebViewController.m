@@ -69,7 +69,12 @@
 }
 
 - (void)dealloc {
-    [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
+    @try {
+        [self.webView removeObserver:self forKeyPath:@"estimatedProgress"];
+    } @catch (NSException *exception) {
+        NSLog(@"%@", exception.reason);
+    }
+    
 }
 
 #pragma mark delete

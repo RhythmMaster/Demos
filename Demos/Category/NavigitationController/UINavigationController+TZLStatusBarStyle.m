@@ -44,10 +44,21 @@
 
 @implementation UINavigationController (TZLStatusBarStyle)
 - (UIViewController *)childViewControllerForStatusBarStyle {
-    return self.visibleViewController;
+    return self.visibleViewController.barStyleBySelf ? self.visibleViewController: nil;
 }
 
 - (UIViewController *)childViewControllerForStatusBarHidden {
-    return self.visibleViewController;
+    return self.visibleViewController.barStyleBySelf ? self.visibleViewController: nil;
+}
+@end
+
+@implementation UIViewController (TZLStatusBarStyle)
+- (void)setBarStyleBySelf:(BOOL)barStyleBySelf {
+    objc_setAssociatedObject(self, @selector(barStyleBySelf), @(barStyleBySelf), OBJC_ASSOCIATION_RETAIN);
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+- (BOOL)barStyleBySelf {
+    BOOL barStyleBySelf = [objc_getAssociatedObject(self, @selector(barStyleBySelf)) boolValue];
+    return barStyleBySelf;
 }
 @end
