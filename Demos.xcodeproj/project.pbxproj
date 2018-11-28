@@ -86,6 +86,14 @@
 		249BB34F21A4F29700AA462A /* UITableView+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB34E21A4F29700AA462A /* UITableView+TZLExtension.m */; };
 		249BB35421A5034C00AA462A /* UINavigationController+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB35021A5034800AA462A /* UINavigationController+TZLExtension.m */; };
 		249BB35921A5079900AA462A /* UICollectionView+TZLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */; };
+		24BD65B121ABE96600BCACF0 /* TZLSystemAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65B021ABE96600BCACF0 /* TZLSystemAlbumViewController.m */; };
+		24BD65B621ABED9C00BCACF0 /* TZLAlbumImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65B521ABED9C00BCACF0 /* TZLAlbumImagePicker.m */; };
+		24BD65EC21AD275100BCACF0 /* TZLCircleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65EB21AD275100BCACF0 /* TZLCircleImageViewController.m */; };
+		24BD65F021AD277900BCACF0 /* UIImage+TZLCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65EF21AD277900BCACF0 /* UIImage+TZLCircleImage.m */; };
+		24BD65FA21AD2F4500BCACF0 /* TZLAfterDelayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65F921AD2F4500BCACF0 /* TZLAfterDelayListViewController.m */; };
+		24BD660021AD302200BCACF0 /* TZLAfterDelayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD65FF21AD302200BCACF0 /* TZLAfterDelayViewController.m */; };
+		24BD660421AE1B3300BCACF0 /* TZLLockListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD660321AE1B3300BCACF0 /* TZLLockListViewController.m */; };
+		24BD660721AE1D8F00BCACF0 /* TZLLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD660621AE1D8F00BCACF0 /* TZLLockViewController.m */; };
 		8905DD4D6799C4CC793A6C8D /* libPods-Demos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */; };
 		B5E7BDFD2F6B1E9A5895BB70 /* libPods-DemosUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE63D0B148E9A513BC2DDA17 /* libPods-DemosUITests.a */; };
 		E930F04F03F9E5AC9726B4D0 /* libPods-DemosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1802709BD56D254446F32D /* libPods-DemosTests.a */; };
@@ -268,6 +276,22 @@
 		249BB35121A5034900AA462A /* UINavigationController+TZLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TZLExtension.h"; sourceTree = "<group>"; };
 		249BB35721A5079900AA462A /* UICollectionView+TZLExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TZLExtension.h"; sourceTree = "<group>"; };
 		249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TZLExtension.m"; sourceTree = "<group>"; };
+		24BD65AF21ABE96600BCACF0 /* TZLSystemAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLSystemAlbumViewController.h; sourceTree = "<group>"; };
+		24BD65B021ABE96600BCACF0 /* TZLSystemAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLSystemAlbumViewController.m; sourceTree = "<group>"; };
+		24BD65B421ABED9C00BCACF0 /* TZLAlbumImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAlbumImagePicker.h; sourceTree = "<group>"; };
+		24BD65B521ABED9C00BCACF0 /* TZLAlbumImagePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAlbumImagePicker.m; sourceTree = "<group>"; };
+		24BD65EA21AD275100BCACF0 /* TZLCircleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLCircleImageViewController.h; sourceTree = "<group>"; };
+		24BD65EB21AD275100BCACF0 /* TZLCircleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLCircleImageViewController.m; sourceTree = "<group>"; };
+		24BD65EE21AD277800BCACF0 /* UIImage+TZLCircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TZLCircleImage.h"; sourceTree = "<group>"; };
+		24BD65EF21AD277900BCACF0 /* UIImage+TZLCircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TZLCircleImage.m"; sourceTree = "<group>"; };
+		24BD65F821AD2F4500BCACF0 /* TZLAfterDelayListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAfterDelayListViewController.h; sourceTree = "<group>"; };
+		24BD65F921AD2F4500BCACF0 /* TZLAfterDelayListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAfterDelayListViewController.m; sourceTree = "<group>"; };
+		24BD65FE21AD302200BCACF0 /* TZLAfterDelayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLAfterDelayViewController.h; sourceTree = "<group>"; };
+		24BD65FF21AD302200BCACF0 /* TZLAfterDelayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLAfterDelayViewController.m; sourceTree = "<group>"; };
+		24BD660221AE1B3300BCACF0 /* TZLLockListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLockListViewController.h; sourceTree = "<group>"; };
+		24BD660321AE1B3300BCACF0 /* TZLLockListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLockListViewController.m; sourceTree = "<group>"; };
+		24BD660521AE1D8F00BCACF0 /* TZLLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZLLockViewController.h; sourceTree = "<group>"; };
+		24BD660621AE1D8F00BCACF0 /* TZLLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLLockViewController.m; sourceTree = "<group>"; };
 		3DFCFC38C5AF2E44D4538AEB /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demos/Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		7BA44A7376F1FD8866CD5673 /* Pods-DemosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosTests/Pods-DemosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C45F144AD8DC2CF466534A4 /* libPods-Demos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -349,6 +373,7 @@
 				243A0A5C21796F98009EFCC8 /* CoreData */,
 				241C385221410F760062DCD3 /* Category */,
 				241C384E2141015B0062DCD3 /* Tools */,
+				24BD65B221ABED6B00BCACF0 /* Vendor */,
 				241C383A2140CC530062DCD3 /* BasicViewController */,
 				241C38412140CC970062DCD3 /* MainMenu */,
 				241C38082140C5F40062DCD3 /* AppDelegate.h */,
@@ -424,6 +449,9 @@
 		241C384A2140D0640062DCD3 /* DemoController */ = {
 			isa = PBXGroup;
 			children = (
+				24BD65F121AD2D6000BCACF0 /* AfterDelay */,
+				24BD65E921AD274100BCACF0 /* CircleImage */,
+				24BD65AE21ABE95200BCACF0 /* SystemAlbum */,
 				2495E40121990F080071BFAC /* DistributionView */,
 				243A0A882180167B009EFCC8 /* AddChildController */,
 				246B909621787464009EE2D9 /* DrawCard */,
@@ -543,6 +571,7 @@
 			children = (
 				241C38A321533CBE0062DCD3 /* TZLStudyViewController.h */,
 				241C38A421533CBE0062DCD3 /* TZLStudyViewController.m */,
+				24BD660121AE1B2100BCACF0 /* Lock */,
 				249BB33F21A2B24700AA462A /* FrameAndBounds */,
 				249BB33821A2980B00AA462A /* Navi */,
 				246B903C216DDB33009EE2D9 /* NetRequest */,
@@ -845,6 +874,73 @@
 				249BB35821A5079900AA462A /* UICollectionView+TZLExtension.m */,
 			);
 			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		24BD65AE21ABE95200BCACF0 /* SystemAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65AF21ABE96600BCACF0 /* TZLSystemAlbumViewController.h */,
+				24BD65B021ABE96600BCACF0 /* TZLSystemAlbumViewController.m */,
+			);
+			path = SystemAlbum;
+			sourceTree = "<group>";
+		};
+		24BD65B221ABED6B00BCACF0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65B321ABED6B00BCACF0 /* SystemAlbum */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		24BD65B321ABED6B00BCACF0 /* SystemAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65B421ABED9C00BCACF0 /* TZLAlbumImagePicker.h */,
+				24BD65B521ABED9C00BCACF0 /* TZLAlbumImagePicker.m */,
+			);
+			path = SystemAlbum;
+			sourceTree = "<group>";
+		};
+		24BD65E921AD274100BCACF0 /* CircleImage */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65ED21AD276500BCACF0 /* CircleImage */,
+				24BD65EA21AD275100BCACF0 /* TZLCircleImageViewController.h */,
+				24BD65EB21AD275100BCACF0 /* TZLCircleImageViewController.m */,
+			);
+			path = CircleImage;
+			sourceTree = "<group>";
+		};
+		24BD65ED21AD276500BCACF0 /* CircleImage */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65EE21AD277800BCACF0 /* UIImage+TZLCircleImage.h */,
+				24BD65EF21AD277900BCACF0 /* UIImage+TZLCircleImage.m */,
+			);
+			path = CircleImage;
+			sourceTree = "<group>";
+		};
+		24BD65F121AD2D6000BCACF0 /* AfterDelay */ = {
+			isa = PBXGroup;
+			children = (
+				24BD65F821AD2F4500BCACF0 /* TZLAfterDelayListViewController.h */,
+				24BD65F921AD2F4500BCACF0 /* TZLAfterDelayListViewController.m */,
+				24BD65FE21AD302200BCACF0 /* TZLAfterDelayViewController.h */,
+				24BD65FF21AD302200BCACF0 /* TZLAfterDelayViewController.m */,
+			);
+			path = AfterDelay;
+			sourceTree = "<group>";
+		};
+		24BD660121AE1B2100BCACF0 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				24BD660221AE1B3300BCACF0 /* TZLLockListViewController.h */,
+				24BD660321AE1B3300BCACF0 /* TZLLockListViewController.m */,
+				24BD660521AE1D8F00BCACF0 /* TZLLockViewController.h */,
+				24BD660621AE1D8F00BCACF0 /* TZLLockViewController.m */,
+			);
+			path = Lock;
 			sourceTree = "<group>";
 		};
 		8A2CB9E6DBEAC8DB70BAA420 /* Frameworks */ = {
@@ -1155,6 +1251,7 @@
 				24427D48215DB96D0002E7FC /* TZLSubUIBezierPathViewController.m in Sources */,
 				249BB35921A5079900AA462A /* UICollectionView+TZLExtension.m in Sources */,
 				24427D38215B5C7B0002E7FC /* NSObject+HZRuntime.m in Sources */,
+				24BD65B621ABED9C00BCACF0 /* TZLAlbumImagePicker.m in Sources */,
 				2450815A21534A2F00C9657B /* TZLEmitterSnowViewController.m in Sources */,
 				241C386221410F880062DCD3 /* NSObject+NetWorking.m in Sources */,
 				241C380D2140C5F40062DCD3 /* ViewController.m in Sources */,
@@ -1180,11 +1277,13 @@
 				2450815D21538D3A00C9657B /* TZLEmitterRedPackageViewController.m in Sources */,
 				241C383F2140CC530062DCD3 /* BasicViewController.m in Sources */,
 				241C3869214111F90062DCD3 /* TZLStretchyHeadView.m in Sources */,
+				24BD660421AE1B3300BCACF0 /* TZLLockListViewController.m in Sources */,
 				24427D30215B5C3F0002E7FC /* UIBarButtonItem+HZBarButtonItem.m in Sources */,
 				245081662154BE8900C9657B /* TZLEmitterLikeViewController.m in Sources */,
 				249BB34F21A4F29700AA462A /* UITableView+TZLExtension.m in Sources */,
 				24427D45215CD96C0002E7FC /* TZLUIBezierPathTableViewController.m in Sources */,
 				246B909E21787617009EE2D9 /* TZLMyCardViewController.m in Sources */,
+				24BD65B121ABE96600BCACF0 /* TZLSystemAlbumViewController.m in Sources */,
 				241C385F21410F880062DCD3 /* NSString+ToURL.m in Sources */,
 				24427D4F215F19AA0002E7FC /* HZWebViewController.m in Sources */,
 				241C38182140C5F50062DCD3 /* main.m in Sources */,
@@ -1210,11 +1309,16 @@
 				249BB34221A2B25700AA462A /* TZLFrameAndBoundsViewController.m in Sources */,
 				2450816A2154BEBB00C9657B /* TZLLikeButton.m in Sources */,
 				2495E40A21991DE20071BFAC /* TZLSignRecordTVCell.m in Sources */,
+				24BD65EC21AD275100BCACF0 /* TZLCircleImageViewController.m in Sources */,
 				241C386021410F880062DCD3 /* UIViewController+TZLExtension.m in Sources */,
 				24427D37215B5C7B0002E7FC /* ZXPUnicode.m in Sources */,
+				24BD65FA21AD2F4500BCACF0 /* TZLAfterDelayListViewController.m in Sources */,
+				24BD65F021AD277900BCACF0 /* UIImage+TZLCircleImage.m in Sources */,
+				24BD660021AD302200BCACF0 /* TZLAfterDelayViewController.m in Sources */,
 				241C3877214767F00062DCD3 /* TZLWaterfallViewController.m in Sources */,
 				243A0A6521797008009EFCC8 /* TZLCoreDataManager.m in Sources */,
 				249BB35421A5034C00AA462A /* UINavigationController+TZLExtension.m in Sources */,
+				24BD660721AE1D8F00BCACF0 /* TZLLockViewController.m in Sources */,
 				241C38482140CD570062DCD3 /* DemoMenuViewController.m in Sources */,
 				241C380A2140C5F40062DCD3 /* AppDelegate.m in Sources */,
 				243A0A822179DA2F009EFCC8 /* Entity+CoreDataProperties.m in Sources */,

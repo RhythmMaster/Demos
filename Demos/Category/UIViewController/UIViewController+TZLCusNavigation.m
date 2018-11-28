@@ -29,7 +29,7 @@
         
         UIScreenEdgePanGestureRecognizer *gestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(gestureAction:)];
         gestureRecognizer.edges = UIRectEdgeLeft;
-        [self.view addGestureRecognizer:gestureRecognizer];
+//        [self.view addGestureRecognizer:gestureRecognizer];
     }
 }
 - (void)reBackNavigation {

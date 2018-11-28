@@ -25,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+//    self.fd_prefersNavigationBarHidden = YES;
     [self.tableView tzl_addHeadViewWithFrame:CGRectMake(0, 0, kScreenW, 150) view:self.stretchyHeadView];
 }
 #pragma mark - [self setNeedsStatusBarAppearanceUpdate]给这个方法就能回调到这里
@@ -33,6 +34,7 @@
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+//    self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
     self.barStyleBySelf = YES;
     [self initNavigationViewWithBackgroundColor:[UIColor orangeColor] alpha:0.0 backImageName:@"" backText:@"" title:@""];
 }

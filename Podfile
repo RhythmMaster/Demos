@@ -10,6 +10,7 @@ target 'Demos' do
   pod 'AFNetworking'#, '~> 3.0'  #网络请求
   pod 'Masonry'  #布局
   pod 'YYKit'
+  pod 'MLTransition'  #修复自定义导航栏左上角按钮时导致的右滑返回失效
   
   
   target 'DemosTests' do

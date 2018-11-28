@@ -35,19 +35,20 @@
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
-    self.navigationController.endTransformAnimation = NO;
-    [naviVC validatePanGestureRecognizerWithAnimation:YES];
+//    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
+//    self.navigationController.endTransformAnimation = NO;
+//    [naviVC validatePanGestureRecognizerWithAnimation:YES];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    self.navigationController.endTransformAnimation = YES;
+//    self.navigationController.endTransformAnimation = YES;
 }
 
 - (void)rightAction:(UIButton *)sender {
-    TZLSubTransformViewController *subVC = [TZLSubTransformViewController new];
-    subVC.noEx = YES;
-    [self presentViewController:subVC animated:YES animationView:self.imageView fromFrame:CGRectMake(100, 100, 250, 500) toFrame:CGRectMake(160, 160, 120, 250) completion:nil];
+//    TZLSubTransformViewController *subVC = [TZLSubTransformViewController new];
+//    subVC.noEx = YES;
+//    [self presentViewController:subVC animated:YES animationView:self.imageView fromFrame:CGRectMake(100, 100, 250, 500) toFrame:CGRectMake(160, 160, 120, 250) completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)backAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

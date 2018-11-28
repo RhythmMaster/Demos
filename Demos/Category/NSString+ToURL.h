@@ -10,7 +10,8 @@
 
 @interface NSString (ToURL)
 
-@property (nonatomic,readonly) NSURL *tzl_URL;
+@property (nonatomic, readonly) NSURL *tzl_URL;
+@property (nonatomic, readonly, assign) BOOL isPhoneNumber;
 
 - (NSArray *)componentsSeparatedFromString:(NSString *)fromString toString:(NSString *)toString;
 

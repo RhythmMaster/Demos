@@ -13,6 +13,9 @@
 
 @interface UIViewController (TZLExtension)
 
+/** 隐藏本页面返回文字.只保留箭头 */
+@property(nonatomic, strong) NSString *changeBackText;
+
 - (void)alertViewWithMessage:(NSString *)message;
 
 

@@ -84,8 +84,9 @@
     TZLWaterfallCollectionViewCell *cell = (TZLWaterfallCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     CGRect frame = [collectionView convertRect:cell.frame toView:self.view];
     TZLSubTransformViewController *subVC = [TZLSubTransformViewController new];
-    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
-    [naviVC pushViewController:subVC animationView:cell desRec:CGRectMake(100, 100, 250, 500) original:frame isPush:YES];
+    [self.navigationController pushViewController:subVC animated:YES];
+//    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;
+//    [naviVC pushViewController:subVC animationView:cell desRec:CGRectMake(100, 100, 250, 500) original:frame isPush:YES];
 }
 
 - (UICollectionView *)collectionView {

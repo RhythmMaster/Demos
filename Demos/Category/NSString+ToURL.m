@@ -14,6 +14,21 @@
     return [NSURL URLWithString:self];
 }
 
+- (BOOL)isPhoneNumber {
+    NSString *phoneNumStr;
+    phoneNumStr = [[NSString alloc] initWithString:[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]];
+    phoneNumStr = [phoneNumStr stringByReplacingOccurrencesOfString:@" " withString:@""];
+    
+    NSString *phoneRegex = @"\\b(1)[34578][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\\b|\\b(1)(7)(7)[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\\b|\\b(1)(7)(6)[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\\b";
+    NSPredicate *phoneCheck = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
+    
+    if (![phoneCheck evaluateWithObject:phoneNumStr]) {
+        
+        return NO;
+    }
+    
+    return YES;
+}
 
 - (NSArray *)componentsSeparatedFromString:(NSString *)fromString toString:(NSString *)toString {
     if (IsEmptyStr(fromString) || IsEmptyStr(toString)) {

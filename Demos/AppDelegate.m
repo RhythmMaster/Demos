@@ -19,6 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self.window makeKeyAndVisible];
     self.window.backgroundColor = [UIColor whiteColor];
+    [MLTransition validatePanBackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 
     MainMenuViewController *mainVC = [MainMenuViewController new];
     TZLNavigationController *naviVC = [[TZLNavigationController alloc] initWithRootViewController:mainVC];

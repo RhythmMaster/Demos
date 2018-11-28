@@ -13,6 +13,8 @@
 #import "TZLStudyNaviViewController.h"
 #import "TZLFrameAndBoundsViewController.h"
 
+#import "TZLLockListViewController.h"
+
 @interface TZLStudyViewController ()
 
 @end
@@ -22,10 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataArr = @[@"粒子发射", @"UIBezierPath和drawRect:(CGRect)rect",
-                     @"原生网络请求", @"好好学习下导航栏", @"frame和bounds"];
+                     @"原生网络请求", @"好好学习下导航栏", @"frame和bounds",
+                     @"iOS中的8中锁"];
     self.controllerArr = @[[TZLEmitterViewController class], [TZLUIBezierPathTableViewController class],
                            [TZLNetRequestViewController class], [TZLStudyNaviViewController class],
-                           [TZLFrameAndBoundsViewController class]];
+                           [TZLFrameAndBoundsViewController class], [TZLLockListViewController class]];
 }
 
 - (void)didReceiveMemoryWarning {
