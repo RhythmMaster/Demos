@@ -18,5 +18,6 @@
 
 - (void)alertViewWithMessage:(NSString *)message;
 
-
+/** 懒得写button */
+@property(nonatomic, strong) UIButton *changeBtn;
 @end

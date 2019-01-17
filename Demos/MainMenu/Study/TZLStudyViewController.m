@@ -9,12 +9,17 @@
 #import "TZLStudyViewController.h"
 #import "TZLEmitterViewController.h"
 #import "TZLUIBezierPathTableViewController.h"
-#import "TZLNetRequestViewController.h"
+#import "TZLRequestWMViewController.h"
 #import "TZLStudyNaviViewController.h"
 #import "TZLFrameAndBoundsViewController.h"
 
 #import "TZLLockListViewController.h"
-
+#import "TZLMBProgressHUDListVC.h"
+#import "TZLRuntimeListViewController.h"
+#import "TZLKVCListViewController.h"
+#import "TZLMWPhotoBrowserViewController.h"
+#import "TZLCustomScrollViewController.h"
+#import "TZLBloclListVC.h"
 @interface TZLStudyViewController ()
 
 @end
@@ -25,10 +30,18 @@
     [super viewDidLoad];
     self.dataArr = @[@"粒子发射", @"UIBezierPath和drawRect:(CGRect)rect",
                      @"原生网络请求", @"好好学习下导航栏", @"frame和bounds",
-                     @"iOS中的8中锁"];
+                     @"iOS中的8种锁", @"MBProgressHUD",
+                     @"runtime", @"KVC",
+                     @"MWPhotoBrowser", @"自定义滚动视图",
+                     @"关于block的解惑"];
     self.controllerArr = @[[TZLEmitterViewController class], [TZLUIBezierPathTableViewController class],
-                           [TZLNetRequestViewController class], [TZLStudyNaviViewController class],
-                           [TZLFrameAndBoundsViewController class], [TZLLockListViewController class]];
+                           [TZLRequestWMViewController class], [TZLStudyNaviViewController class],
+                           [TZLFrameAndBoundsViewController class], [TZLLockListViewController class],
+                           [TZLMBProgressHUDListVC class], [TZLRuntimeListViewController class],
+                           [TZLKVCListViewController class],
+                           [TZLMWPhotoBrowserViewController class],
+                           [TZLCustomScrollViewController class],
+                           [TZLBloclListVC class]];
 }
 
 - (void)didReceiveMemoryWarning {

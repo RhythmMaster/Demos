@@ -47,4 +47,20 @@ static NSString *tzl_topItem = @"TZLTopItem";
     
     
 }
+- (void)setChangeBtn:(UIButton *)changeBtn {
+    objc_setAssociatedObject(self, @selector(changeBtn), changeBtn, OBJC_ASSOCIATION_RETAIN);
+    
+}
+- (UIButton *)changeBtn {
+    UIButton *button = objc_getAssociatedObject(self, @selector(changeBtn));
+    if (!button) {
+        button = [UIButton buttonWithType:UIButtonTypeSystem];
+        [self.view addSubview:button];
+        button.frame = CGRectMake(0, 0, 300, 60);
+        button.center = CGPointMake(kScreenW * 0.5, kScreenH - 100);
+        [button setTitle:@"改变点东西看看" forState:UIControlStateNormal];
+        objc_setAssociatedObject(self, @selector(changeBtn), button, OBJC_ASSOCIATION_RETAIN);
+    }
+    return button;
+}
 @end

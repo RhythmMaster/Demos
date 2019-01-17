@@ -12,6 +12,9 @@ target 'Demos' do
   pod 'YYKit'
   pod 'MLTransition'  #修复自定义导航栏左上角按钮时导致的右滑返回失效
   
+  pod 'MBProgressHUD'
+  
+  pod 'MWPhotoBrowser'
   
   target 'DemosTests' do
     inherit! :search_paths

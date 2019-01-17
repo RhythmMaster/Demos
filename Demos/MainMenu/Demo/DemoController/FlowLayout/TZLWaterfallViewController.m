@@ -81,8 +81,8 @@
     return cell;
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    TZLWaterfallCollectionViewCell *cell = (TZLWaterfallCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    CGRect frame = [collectionView convertRect:cell.frame toView:self.view];
+//    TZLWaterfallCollectionViewCell *cell = (TZLWaterfallCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+//    CGRect frame = [collectionView convertRect:cell.frame toView:self.view];
     TZLSubTransformViewController *subVC = [TZLSubTransformViewController new];
     [self.navigationController pushViewController:subVC animated:YES];
 //    TZLNavigationController *naviVC = (TZLNavigationController *)self.navigationController;

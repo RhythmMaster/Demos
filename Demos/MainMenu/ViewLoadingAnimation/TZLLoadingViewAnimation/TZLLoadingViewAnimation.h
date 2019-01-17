@@ -29,7 +29,7 @@
 - (void)startSubViewAnimatedWithViews:(NSArray<UIView *> *)views;
 /** 所有子视图的停止动画 */
 - (void)endSubViewAnimated:(UIView *)view;
-/** 所有子视图的开始动画多view时候 */
+/** 所有子视图的停止动画多view时候 */
 - (void)endSubViewAnimatedWithViews:(NSArray<UIView *> *)views;
 
 

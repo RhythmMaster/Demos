@@ -17,6 +17,15 @@
 #import "TZLCircleImageViewController.h"
 #import "TZLAfterDelayListViewController.h"
 
+#import "TZLUITextFieldViewController.h"
+#import "TZLGIFViewController.h"
+#import "TZLRuntimeDemoListVC.h"
+
+#import "TZLCoreMotionListVC.h"
+#import "TZLGIFPlayerViewController.h"
+#import "TZLEmptyTableViewVC.h"
+#import "TZLApliyHomeViewController.h"
+
 @interface DemoMenuViewController ()
 
 @end
@@ -29,12 +38,24 @@
                      @"模拟率土之滨抽卡", @"添加子控制器分二步",
                      @"view的网络加载过度动画", @"带三角形的突出view",
                      @"系统相册的调用", @"圆形图片",
-                     @"几种延时操作"];
+                     @"几种延时操作", @"修改UITextField",
+                     @"取出gif图的每一帧,再利用UIImageView定时更换image达到播放gif",
+                     @"利用runtime做一些事情的demo",
+                     @"CoreMotion 利用系统硬件的框架,比如重力弹球",
+                     @"GIF的播放方式",
+                     @"tableView无数据时候",
+                     @"支付宝首页效果"];
     self.controllerArr = @[[PullDownHeadViewController class], [TZLWaterfallViewController class],
                            [DrawCardViewController class], [TZLAddVCMeunViewController class], 
                            [TZLViewLoadingAnimationViewController class], [TZLDistributionViewController class],
                            [TZLSystemAlbumViewController class], [TZLCircleImageViewController class],
-                           [TZLAfterDelayListViewController class]];
+                           [TZLAfterDelayListViewController class], [TZLUITextFieldViewController class],
+                           [TZLGIFViewController class],
+                           [TZLRuntimeDemoListVC class],
+                           [TZLCoreMotionListVC class],
+                           [TZLGIFPlayerViewController class],
+                           [TZLEmptyTableViewVC class],
+                           [TZLApliyHomeViewController class]];
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
